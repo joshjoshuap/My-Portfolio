@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-Link:  https://joshjoshuap.github.io/My-Portfolio/
+Link:  https://joshuapautanes.netlify.app/
 
 #### Built in
 <ul>
