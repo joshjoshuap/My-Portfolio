@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-### Link: <a href="joshjoshuap.vercel.app" target="_blank">joshjoshuap.vercel.app</a>
+### Link: <a href="https://joshjoshuap.vercel.app/" target="_blank">joshjoshuap.vercel.app</a>
