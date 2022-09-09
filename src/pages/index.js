@@ -1,7 +1,15 @@
+import About from "./sections/About";
+import Header from "./sections/Header";
+import Skills from "./sections/Skills";
+
 export default function Home() {
   return (
-    <div>
-     <h1 className="text-7xl text-blue-500">Joshua Pautanes</h1>
-    </div>
-  )
+    <>
+      <Header />
+      <main>
+        <About />
+        <Skills />
+      </main>
+    </>
+  );
 }
