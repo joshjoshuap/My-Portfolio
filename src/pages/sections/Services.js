@@ -2,7 +2,7 @@ import Image from "next/image";
 import frontEndImage from "/public/images/frontend.png";
 import backEndImage from "/public/images/backend.png";
 import webDesign from "/public/images/web-design.png";
-import webDevelopment from "/public/Images/web-development.png";
+import webDevelopment from "/public/images/web-development.png";
 
 const Services = () => {
   return (
