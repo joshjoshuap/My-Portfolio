@@ -1,7 +1,7 @@
 import Image from "next/image";
-import frontEndImage from "/public/Images/frontend.png";
-import backEndImage from "/public/Images/backend.png";
-import webDesign from "/public/Images/web-design.png";
+import frontEndImage from "/public/images/frontend.png";
+import backEndImage from "/public/images/backend.png";
+import webDesign from "/public/images/web-design.png";
 import webDevelopment from "/public/Images/web-development.png";
 
 const Services = () => {
