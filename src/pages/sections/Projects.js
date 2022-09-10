@@ -10,15 +10,19 @@ import reactjsIcon from "/public/icons/reactjs.icon.svg";
 const Projects = () => {
   return (
     <div className="w-11/12 py-10 mx-auto">
-      <h1 className="text-neutral-800 text-4xl pl-10"> What I Build</h1>
-      <div className="flex gap-5 justify-center">
-        <div className="border border-neutral-600 shadow-xl w-96 p-5">
-          <Image
-            src={webDevResourcesImage}
-            height={220}
-            width={350}
-            alt="Web Dev Screenshot"
-          />
+      <h1 className="text-neutral-800 text-4xl text-center md:text-left md:pl-10">
+        What I Build
+      </h1>
+      <div className="flex flex-col gap-10 justify-center md:flex-row md:mt-5">
+        <div className="border border-neutral-600 shadow-xl md:w-96 p-5">
+          <div className="w-fit mx-auto">
+            <Image
+              src={webDevResourcesImage}
+              height={220}
+              width={350}
+              alt="Web Dev Screenshot"
+            />
+          </div>
           <h1 className="text-center text-xl my-5">Web Dev Resources</h1>
           <p className="mb-5">
             My personal list of resources and developer tools to build and learn
@@ -31,10 +35,10 @@ const Projects = () => {
             <Image src={sassIcon} width={0} alt="Icons" />
             <Image src={reactjsIcon} width={0} alt="Icons" />
           </div>
-          <div className="flex justify-between mt-5">
+          <div className="flex flex-col justify-between gap-3 mt-5 md:flex-row md:gap-5">
             <a
               href="https://joshjoshuap-webdevresources.vercel.app/"
-              className="border-2 border-blue-600 rounded text-blue-600 py-3 px-5 hover:text-neutral-100 hover:bg-blue-600 transition ease-in"
+              className="border-2 border-blue-600 rounded text-blue-600 w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-blue-600 transition ease-in"
               target="_blank"
               rel="noreferrer"
             >
@@ -42,7 +46,7 @@ const Projects = () => {
             </a>
             <a
               href="https://github.com/joshjoshuap/webdev-resources"
-              className="border-2 border-neutral-900 rounded text-neutral-600 py-3 px-5 hover:text-neutral-100 hover:bg-neutral-900 transition ease-in"
+              className="border-2 border-neutral-900 rounded text-neutral-600 w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-neutral-900 transition ease-in"
               target="_blank"
               rel="noreferrer"
             >
@@ -51,13 +55,15 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="border border-neutral-600 shadow-xl w-96 p-5">
-          <Image
-            src={insightMarketImage}
-            height={220}
-            width={350}
-            alt="Web Dev Screenshot"
-          />
+        <div className="border border-neutral-600 shadow-xl md:w-96 p-5">
+          <div className="w-fit mx-auto">
+            <Image
+              src={insightMarketImage}
+              height={220}
+              width={350}
+              alt="Web Dev Screenshot"
+            />
+          </div>
           <h1 className="text-center text-xl my-5">Insight Market</h1>
           <p className="mb-5">
             API based crypto market, shows price, volume and percentage changed
@@ -69,10 +75,10 @@ const Projects = () => {
             <Image src={tailwindIcon} width={0} alt="Icons" />
             <Image src={reactjsIcon} width={0} alt="Icons" />
           </div>
-          <div className="flex justify-between mt-5">
+          <div className="flex flex-col justify-between gap-3 mt-5 md:flex-row md:gap-5">
             <a
               href="https://joshjoshuap-insightmarketapi.vercel.app/"
-              className="border-2 border-blue-600 rounded text-blue-600 py-3 px-5 hover:text-neutral-100 hover:bg-blue-600 transition ease-in"
+              className="border-2 border-blue-600 rounded text-blue-600 w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-blue-600 transition ease-in"
               target="_blank"
               rel="noreferrer"
             >
@@ -80,7 +86,7 @@ const Projects = () => {
             </a>
             <a
               href="https://github.com/joshjoshuap/insight-market-api"
-              className="border-2 border-neutral-900 rounded text-neutral-600 py-3 px-5 hover:text-neutral-100 hover:bg-neutral-900 transition ease-in"
+              className="border-2 border-neutral-900 rounded text-neutral-600 w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-neutral-900 transition ease-in"
               target="_blank"
               rel="noreferrer"
             >

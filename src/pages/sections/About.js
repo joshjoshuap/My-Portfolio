@@ -1,8 +1,8 @@
 const About = () => {
   return (
-    <div className="w-11/12 py-10 mx-auto">
-      <h1 className="text-neutral-800 text-4xl pl-10"> What I Am</h1>
-      <p className="text-neutral-900 pl-16 w-8/12 mt-3">
+    <div className="py-10 mx-auto md:w-11/12">
+      <h1 className="text-neutral-800 text-4xl text-center md:text-left md:pl-10"> What I Am</h1>
+      <p className="text-neutral-900 px-6 mt-3 md:px-14 lg:px-16 lg:w-8/12">
         A self-taught person that love to explore and to study. Willing to learn
         and passionate to do task. Having interest in programming since senior
         high in a ICT strand then taking BSIT in college to continuously learn

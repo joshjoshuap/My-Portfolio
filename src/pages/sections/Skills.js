@@ -19,11 +19,11 @@ import ubuntuIcon from "/public/icons/ubuntu-icon.svg";
 
 const Skills = () => {
   return (
-    <div className="w-11/12 py-10 mx-auto">
-      <h1 className="text-neutral-800 text-4xl pl-10"> What I Use </h1>
-      <div className="grid grid-cols-3 gap-5 pl-16 mt-3">
-        <div>
-          <h1 className="text-center text-2xl mb-5">Front End</h1>
+    <div className="py-10 mx-auto md:w-11/12">
+      <h1 className="text-neutral-800 text-4xl text-center md:text-left md:pl-10"> What I Use </h1>
+      <div className="grid grid-cols md:grid-cols-3 px-6 mt-3 md:gap-5 md:px-16">
+        <div className="my-3 md:mt-0">
+          <h1 className="text-left text-2xl md:text-center md:mb-5">Front End</h1>
           <div className="flex flex-wrap">
             <Image src={htmlIcon} width={0} alt="Icon" />
             <Image src={cssIcon} width={0} alt="Icon" />
@@ -34,8 +34,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
-          <h1 className="text-center text-2xl mb-5">Back End</h1>
+        <div className="my-3 md:mt-0">
+          <h1 className="text-left text-2xl md:text-center md:mb-5">Back End</h1>
           <div className="flex flex-wrap">
             <Image src={javascriptIcon} width={0} alt="Icon" />
             <Image src={typescriptIcon} width={0} alt="Icon" />
@@ -45,8 +45,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
-          <h1 className="text-center text-2xl mb-5">Tools</h1>
+        <div className="my-3 md:mt-0">
+          <h1 className="text-left text-2xl md:text-center md:mb-5">Tools</h1>
           <div className="flex flex-wrap">
             <Image src={visualstudioIcon} width={0} alt="Icon" />
             <Image src={vscodeIcon} width={0} alt="Icon" />
