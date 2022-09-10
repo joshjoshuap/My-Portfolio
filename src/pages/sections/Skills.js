@@ -1,8 +1,10 @@
 import Image from "next/image";
 import htmlIcon from "/public/icons/html-icon.svg";
 import cssIcon from "/public/icons/css-icon.svg";
+import sassIcon from '/public/icons/sass-icon.svg';
 import bootstrapIcon from "/public/icons/bootstrap-icon.svg";
 import tailwindIcon from "/public/icons/tailwindcss-icon.svg";
+import reactjsIcon from '/public/icons/reactjs.icon.svg';
 import javascriptIcon from "/public/icons/javascript-icon.svg";
 import typescriptIcon from "/public/icons/typescript-icon.svg";
 import nodejsIcon from "/public/icons/nodejs-icon.svg";
@@ -17,7 +19,7 @@ import ubuntuIcon from "/public/icons/ubuntu-icon.svg";
 
 const Skills = () => {
   return (
-    <div className="w-11/12 py-10 mx-auto ">
+    <div className="w-11/12 py-10 mx-auto">
       <h1 className="text-neutral-800 text-4xl pl-10"> What I Use </h1>
       <div className="grid grid-cols-3 gap-5 pl-16 mt-3">
         <div>
@@ -25,8 +27,10 @@ const Skills = () => {
           <div className="flex flex-wrap">
             <Image src={htmlIcon} width={0} alt="Icon" />
             <Image src={cssIcon} width={0} alt="Icon" />
+            <Image src={sassIcon} width={0} alt="Icon" />
             <Image src={bootstrapIcon} width={0} alt="Icon" />
             <Image src={tailwindIcon} width={0} alt="Icon" />
+            <Image src={reactjsIcon} width={0} alt="Icon" />
           </div>
         </div>
 

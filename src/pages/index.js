@@ -1,5 +1,9 @@
 import About from "./sections/About";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 import Header from "./sections/Header";
+import Projects from "./sections/Projects";
+import Services from "./sections/Services";
 import Skills from "./sections/Skills";
 
 export default function Home() {
@@ -8,8 +12,12 @@ export default function Home() {
       <Header />
       <main>
         <About />
+        <Services />
         <Skills />
+        <Projects />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }
