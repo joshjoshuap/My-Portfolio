@@ -8,6 +8,7 @@ import sassIcon from "/public/icons/sass-icon.svg";
 import bootstrapIcon from "/public/icons/bootstrap-icon.svg";
 import tailwindIcon from "/public/icons/tailwindcss-icon.svg";
 import reactjsIcon from "/public/icons/reactjs-icon.svg";
+import nextjsIcon from "/public/icons/nextjs-icon.svg";
 
 const Projects = () => {
   return (
@@ -33,6 +34,7 @@ const Projects = () => {
                 <Image src={cssIcon} height={60} width={60} alt="Icons" />
                 <Image src={sassIcon} height={60} width={60} alt="Icons" />
                 <Image src={reactjsIcon} height={60} width={60} alt="Icons" />
+                <Image src={nextjsIcon} height={60} width={60} alt="Icons" />
               </div>
             </div>
             <div className="flex flex-col justify-between gap-3 mt-5 md:flex-row md:gap-5">
@@ -75,6 +77,7 @@ const Projects = () => {
                 <Image src={cssIcon} height={60} width={60} alt="Icons" />
                 <Image src={tailwindIcon} height={60} width={60} alt="Icons" />
                 <Image src={reactjsIcon} height={60} width={60} alt="Icons" />
+                <Image src={nextjsIcon} height={60} width={60} alt="Icons" />
               </div>
             </div>
             <div className="flex flex-col justify-between gap-3 mt-5 md:flex-row md:gap-5">
@@ -102,7 +105,7 @@ const Projects = () => {
           <Image src={techytechyZoneImage} alt="Web Dev Screenshot" />
           <div className="p-5">
             <h1 className="text-blue-700 text-center text-2xl font-semibold mb-5">
-              Insight Market
+              Techy Techy Zone
             </h1>
             <p className="text-lg mb-5">
               Simple Website contains gadgets, mobile and tech trends.
