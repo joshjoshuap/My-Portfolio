@@ -5,7 +5,7 @@ import htmlIcon from "/public/icons/html-icon.svg";
 import cssIcon from "/public/icons/css-icon.svg";
 import sassIcon from "/public/icons/sass-icon.svg";
 import tailwindIcon from "/public/icons/tailwindcss-icon.svg";
-import reactjsIcon from "/public/icons/reactjs.icon.svg";
+import reactjsIcon from "/public/icons/reactjs-icon.svg";
 
 const Projects = () => {
   return (
