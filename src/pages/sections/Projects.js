@@ -13,7 +13,7 @@ import nextjsIcon from "/public/icons/nextjs-icon.svg";
 const Projects = () => {
   return (
     <div className="py-16 px-28">
-      <h1 className="text-blue-600 text-7xl font-semibold">What I Build</h1>
+      <h1 className="text-blue-600 text-7xl font-semibold">Personal Projects</h1>
       <div className="grid grid-cols-3 gap-10 justify-center md:flex-row md:mt-5">
         <div className="border-2 border-blue-800 rounded">
           <Image src={webDevResourcesImage} alt="Web Dev Screenshot" />

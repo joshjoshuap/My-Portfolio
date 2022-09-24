@@ -20,7 +20,7 @@ import ubuntuIcon from "/public/icons/ubuntu-icon.svg";
 const Skills = () => {
   return (
     <div className="py-16 px-28">
-      <h1 className="text-blue-600 text-7xl font-semibold"> What I Use </h1>
+      <h1 className="text-blue-600 text-7xl font-semibold"> Technologies I Used</h1>
       <div className="grid grid-cols md:grid-cols-3 px-6 mt-3 md:gap-10 md:px-16">
         <div className="mt-5 border-4 border-blue-800">
           <h1 className="bg-blue-800 text-center text-4xl text-neutral-100 p-3">

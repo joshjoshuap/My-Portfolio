@@ -9,7 +9,7 @@ import phoneIcon from "/public/icons/phone-icon.svg";
 const Contact = () => {
   return (
     <div className="py-16 px-28">
-      <h1 className="text-blue-600 text-7xl font-semibold"> Contact</h1>
+      <h1 className="text-blue-600 text-7xl font-semibold"> Lets  Talk</h1>
       <div className="grid grid-cols px-6 md:grid-cols-2">
         <div className="mt-5">
           <h2 className="text-blue-800 text-4xl text-center font-semibold">
