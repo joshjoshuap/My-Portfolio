@@ -5,17 +5,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Joshua Pautanes | Portfolio </title>
+        <title>Joshua Pautanes | Personal Website </title>
 
-        <meta name="title" content="Joshua Pautanes | Portfolio" />
+        <meta name="title" content="Joshua Pautanes | Personal Website" />
         <meta
           name="description"
-          content="My personal website and portfolio"
+          content="My personal website and portfolio. Know more about me and lets talk"
         />
-        <meta
-          name="keywords"
-          content="Joshua Pautanes, Josh Joshua"
-        />
+        <meta name="keywords" content="Joshua Pautanes, Josh Joshua, joshjoshuap" />
         <meta name="author" content="Joshua Pautanes" />
         <meta
           name="viewport"
