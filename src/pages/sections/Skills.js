@@ -17,7 +17,7 @@ import {
   bashTerminalIcon,
   figmaIcon,
   ubuntuIcon,
-} from "../js/image-assets";
+} from "/src/js/image-assets";
 import Section from "../../components/Sections";
 import SkillItem from "../../components/SkillsItem";
 

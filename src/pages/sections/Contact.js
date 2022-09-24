@@ -6,7 +6,7 @@ import {
   linkedinIcon,
   emailIcon,
   phoneIcon,
-} from "../js/image-assets";
+} from "/src/js/image-assets";
 import Section from "../../components/Sections";
 
 const ContactInfo = (props) => {

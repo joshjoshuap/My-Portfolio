@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { headingImage } from "../js/image-assets";
+import { headingImage } from "/src/js/image-assets";
 
 const Header = () => {
   return (

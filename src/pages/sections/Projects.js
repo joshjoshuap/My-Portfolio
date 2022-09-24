@@ -9,7 +9,7 @@ import {
   tailwindIcon,
   reactjsIcon,
   nextjsIcon,
-} from "../js/image-assets";
+} from "/src/js/image-assets";
 import Section from "../../components/Sections";
 import ProjectItem from "../../components/ProjectsItem";
 

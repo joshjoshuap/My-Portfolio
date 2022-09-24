@@ -3,7 +3,7 @@ import {
   backEndImage,
   webDesign,
   webDevelopment,
-} from "../js/image-assets";
+} from "/src/js/image-assets";
 import Section from "../../components/Sections";
 import ServicesItem from "../../components/ServicesItem";
 
