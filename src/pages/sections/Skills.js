@@ -14,13 +14,16 @@ import visualstudioIcon from "/public/icons/visualstudio-icon.svg";
 import vscodeIcon from "/public/icons/vscode-icon.svg";
 import gitIcon from "/public/icons/git-icon.svg";
 import githubIcon from "/public/icons/github-icon.svg";
+import bashTerminalIcon from "/public/icons/bashterminal-icon.svg";
 import figmaIcon from "/public/icons/figma-icon.svg";
 import ubuntuIcon from "/public/icons/ubuntu-icon.svg";
 
 const Skills = () => {
   return (
     <div className="py-16 px-28">
-      <h1 className="text-blue-600 text-7xl font-semibold"> Technologies I Used</h1>
+      <h1 className="text-blue-600 text-7xl font-semibold">
+        Technologies I Used
+      </h1>
       <div className="grid grid-cols md:grid-cols-3 px-6 mt-3 md:gap-10 md:px-16">
         <div className="mt-5 border-4 border-blue-800">
           <h1 className="bg-blue-800 text-center text-4xl text-neutral-100 p-3">
@@ -33,7 +36,6 @@ const Skills = () => {
             <Image src={bootstrapIcon} height={80} width={80} alt="Icon" />
             <Image src={tailwindIcon} height={80} width={80} alt="Icon" />
             <Image src={reactjsIcon} height={80} width={80} alt="Icon" />
-            <Image src={nextjsIcon} height={80} width={80} alt="Icon" />
           </div>
         </div>
 
@@ -44,6 +46,7 @@ const Skills = () => {
           <div className="flex flex-wrap p-3 mt-3">
             <Image src={javascriptIcon} height={80} width={80} alt="Icon" />
             <Image src={typescriptIcon} height={80} width={80} alt="Icon" />
+            <Image src={nextjsIcon} height={80} width={80} alt="Icon" />
             <Image src={nodejsIcon} height={80} width={80} alt="Icon" />
             <Image src={mongodbIcon} height={80} width={80} alt="Icon" />
           </div>
@@ -58,6 +61,7 @@ const Skills = () => {
             <Image src={vscodeIcon} height={80} width={80} alt="Icon" />
             <Image src={gitIcon} height={80} width={80} alt="Icon" />
             <Image src={githubIcon} height={80} width={80} alt="Icon" />
+            <Image src={bashTerminalIcon} height={80} width={80} alt="Icon" />
             <Image src={figmaIcon} height={80} width={80} alt="Icon" />
             <Image src={ubuntuIcon} height={80} width={80} alt="Icon" />
           </div>
