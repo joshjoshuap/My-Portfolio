@@ -1,149 +1,68 @@
-import Image from "next/image";
-import webDevResourcesImage from "/public/images/web-dev-resources.jpg";
-import insightMarketImage from "/public/images/insight-market.jpg";
-import techytechyZoneImage from "/public/images/techy-techy-zone.jpg";
-import htmlIcon from "/public/icons/html-icon.svg";
-import cssIcon from "/public/icons/css-icon.svg";
-import sassIcon from "/public/icons/sass-icon.svg";
-import bootstrapIcon from "/public/icons/bootstrap-icon.svg";
-import tailwindIcon from "/public/icons/tailwindcss-icon.svg";
-import reactjsIcon from "/public/icons/reactjs-icon.svg";
-import nextjsIcon from "/public/icons/nextjs-icon.svg";
+import {
+  webDevResourcesImage,
+  insightMarketImage,
+  techytechyZoneImage,
+  htmlIcon,
+  cssIcon,
+  sassIcon,
+  bootstrapIcon,
+  tailwindIcon,
+  reactjsIcon,
+  nextjsIcon,
+} from "../js/image-assets";
+import Section from "../../components/Sections";
+import ProjectItem from "../../components/ProjectsItem";
 
 const Projects = () => {
   return (
-    <div className="py-8 px-6 md:py-12 md:px-12 lg:py-16 lg:px-28">
-      <h1 className="text-blue-600 text-4xl text-center font-semibold md:text-5xl md:text-left lg:text-7xl">Personal Projects</h1>
+    <Section sectionTitle="Peronal Projects">
       <div className="grid grid-cols-1 gap-3 justify-center mt-5 md:grid-cols-2 md:gap-5 md:mt-5 lg:grid-cols-3 lg:gap-8">
-        <div className="border-blue-800 border-2 rounded my-5">
-          <Image src={webDevResourcesImage} alt="Web Dev Screenshot" />
-          <div className="p-5">
-            <h1 className="text-blue-700 text-center text-2xl font-semibold mb-5">
-              Web Dev Resources
-            </h1>
-            <p className="text-lg mb-5">
-              My personal list of resources and developer tools to build and
-              learn web development.
-            </p>
-            <div className="border-blue-800 border-2">
-              <h3 className="bg-blue-800 text-center text-xl text-neutral-100 p-1">
-                Technologies Used
-              </h3>
-              <div className="flex flex-wrap justify-center">
-                <Image src={htmlIcon} height={60} width={60} alt="Icons" />
-                <Image src={cssIcon} height={60} width={60} alt="Icons" />
-                <Image src={sassIcon} height={60} width={60} alt="Icons" />
-                <Image src={reactjsIcon} height={60} width={60} alt="Icons" />
-                <Image src={nextjsIcon} height={60} width={60} alt="Icons" />
-              </div>
-            </div>
-            <div className="flex justify-between gap-3 mt-5 md:flex-row md:gap-5">
-              <a
-                href="https://joshjoshuap-webdevresources.vercel.app/"
-                className="border-2 border-blue-700 rounded text-blue-700 text-lg w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-blue-700 transition ease-in"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Visit Site
-              </a>
-              <a
-                href="https://github.com/joshjoshuap/webdev-resources"
-                className="border-2 border-neutral-900 rounded text-neutral-600 text-lg w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-neutral-900 transition ease-in"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View Github Repository
-              </a>
-            </div>
-          </div>
-        </div>
+        <ProjectItem
+          projectTitle="Web Dev Resources"
+          projectImage={webDevResourcesImage}
+          projectDescription="My personal list of resources and developer tools to build and
+      learn web development."
+          projectWebLink="https://joshjoshuap-webdevresources.vercel.app/"
+          projectRepoLink="https://github.com/joshjoshuap/webdev-resources"
+          projectTechnologies={[
+            { image: htmlIcon },
+            { image: cssIcon },
+            { image: sassIcon },
+            { image: reactjsIcon },
+            { image: nextjsIcon },
+          ]}
+        />
 
+        <ProjectItem
+          projectTitle="Insight Market"
+          projectImage={insightMarketImage}
+          projectDescription="API based crypto market, shows price, volume and percentage changed"
+          projectWebLink="https://joshjoshuap-insightmarketapi.vercel.app/"
+          projectRepoLink="https://github.com/joshjoshuap/insight-market-api"
+          projectTechnologies={[
+            { image: htmlIcon },
+            { image: cssIcon },
+            { image: tailwindIcon },
+            { image: reactjsIcon },
+            { image: nextjsIcon },
+          ]}
+        />
 
-        <div className="border-blue-800 border-2 rounded my-5">
-          <Image src={insightMarketImage} alt="Web Dev Screenshot" />
-          <div className="p-5">
-            <h1 className="text-blue-700 text-center text-2xl font-semibold mb-5">
-              Insight Market
-            </h1>
-            <p className="text-lg mb-5">
-              API based crypto market, shows price, volume and percentage
-              changed
-            </p>
-            <div className="border-blue-800 border-2">
-              <h3 className="bg-blue-800 text-center text-xl text-neutral-100 p-1">
-                Technologies Used
-              </h3>
-              <div className="flex flex-wrap justify-center">
-                <Image src={htmlIcon} height={60} width={60} alt="Icons" />
-                <Image src={cssIcon} height={60} width={60} alt="Icons" />
-                <Image src={tailwindIcon} height={60} width={60} alt="Icons" />
-                <Image src={reactjsIcon} height={60} width={60} alt="Icons" />
-                <Image src={nextjsIcon} height={60} width={60} alt="Icons" />
-              </div>
-            </div>
-            <div className="flex justify-between gap-3 mt-5 md:flex-row md:gap-5">
-              <a
-                href="https://joshjoshuap-insightmarketapi.vercel.app/"
-                className="border-2 border-blue-700 rounded text-blue-700 text-lg w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-blue-700 transition ease-in"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Visit Site
-              </a>
-              <a
-                href="https://github.com/joshjoshuap/insight-market-api"
-                className="border-2 border-neutral-900 rounded text-neutral-600 text-lg w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-neutral-900 transition ease-in"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View Github Repository
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="border-blue-800 border-2 rounded my-5">
-          <Image src={techytechyZoneImage} alt="Web Dev Screenshot" />
-          <div className="p-5">
-            <h1 className="text-blue-700 text-center text-2xl font-semibold mb-5">
-              Techy Techy Zone
-            </h1>
-            <p className="text-lg mb-5">
-              Simple Website contains gadgets, mobile and tech trends.
-            </p>
-            <div className="border-2 border-blue-800">
-              <h3 className="bg-blue-800 text-center text-xl text-neutral-100 p-1">
-                Technologies Used
-              </h3>
-              <div className="flex flex-wrap justify-center">
-                <Image src={htmlIcon} height={60} width={60} alt="Icons" />
-                <Image src={cssIcon} height={60} width={60} alt="Icons" />
-                <Image src={bootstrapIcon} height={60} width={60} alt="Icons" />
-                <Image src={reactjsIcon} height={60} width={60} alt="Icons" />
-              </div>
-            </div>
-            <div className="flex justify-between gap-3 mt-5 md:flex-row md:gap-5">
-              <a
-                href="https://joshjoshuap-techytechzone.vercel.app/"
-                className="border-2 border-blue-700 rounded text-blue-700 text-lg w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-blue-700 transition ease-in"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Visit Site
-              </a>
-              <a
-                href="https://github.com/joshjoshuap/techy-tech-zone"
-                className="border-2 border-neutral-900 rounded text-neutral-600 text-lg w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:text-neutral-100 hover:bg-neutral-900 transition ease-in"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View Github Repository
-              </a>
-            </div>
-          </div>
-        </div>
+        <ProjectItem
+          projectTitle="Techy Techy Zone"
+          projectImage={techytechyZoneImage}
+          projectDescription="Simple Website contains gadgets, mobile and tech trends."
+          projectWebLink="https://joshjoshuap-techytechzone.vercel.app/"
+          projectRepoLink="https://github.com/joshjoshuap/techy-tech-zone"
+          projectTechnologies={[
+            { image: htmlIcon },
+            { image: cssIcon },
+            { image: bootstrapIcon },
+            { image: reactjsIcon },
+          ]}
+        />
       </div>
-    </div>
+    </Section>
   );
 };
 
