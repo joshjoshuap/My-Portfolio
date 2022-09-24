@@ -38,22 +38,14 @@ const SocialInfo = (props) => {
   );
 };
 
-const ContactContainer = (props) => {
-  return (
-    <div className="my-5">
-      <h2 className="text-blue-800 text-2xl text-center font-semibold md:text-4xl">
-        Socials
-      </h2>
-      {props.children}
-    </div>
-  );
-};
-
 const Contact = () => {
   return (
     <Section sectionTitle="Lets Talk">
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <ContactContainer>
+        <div className="my-5">
+          <h2 className="text-blue-800 text-2xl text-center font-semibold md:text-4xl">
+            Socials
+          </h2>
           <div className="flex wrap justify-center mt-5 lg:gap-8">
             <SocialInfo
               socialLink="https://www.facebook.com/joshjoshuap1"
@@ -75,8 +67,11 @@ const Contact = () => {
               socialIcon={linkedinIcon}
             />
           </div>
-        </ContactContainer>
-        <ContactContainer>
+        </div>
+        <div className="my-5">
+          <h2 className="text-blue-800 text-2xl text-center font-semibold md:text-4xl">
+            Contact
+          </h2>
           <div className="flex-none md:flex md:gap-10 mt-5">
             <ContactInfo
               contactDetails="pautanes.joshua@gmail.com"
@@ -88,7 +83,7 @@ const Contact = () => {
               contactIcon={phoneIcon}
             />
           </div>
-        </ContactContainer>
+        </div>
       </div>
     </Section>
   );
