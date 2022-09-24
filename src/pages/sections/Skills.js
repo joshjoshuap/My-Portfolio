@@ -20,16 +20,16 @@ import ubuntuIcon from "/public/icons/ubuntu-icon.svg";
 
 const Skills = () => {
   return (
-    <div className="py-16 px-28">
-      <h1 className="text-blue-600 text-7xl font-semibold">
+    <div className="py-8 px-6 md:py-12 md:px-12 lg:py-16 lg:px-28">
+      <h1 className="text-blue-600 text-4xl text-center font-semibold md:text-5xl md:text-left lg:text-7xl">
         Technologies I Used
       </h1>
-      <div className="grid grid-cols md:grid-cols-3 px-6 mt-3 md:gap-10 md:px-16">
-        <div className="mt-5 border-4 border-blue-800">
-          <h1 className="bg-blue-800 text-center text-4xl text-neutral-100 p-3">
+      <div className="grid grid-cols mt-3 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-10">
+        <div className="border-blue-800 border-4 mt-5">
+          <h1 className="bg-blue-800 text-neutral-100 text-center p-3 md:text-2xl lg:text-4xl">
             Front End
           </h1>
-          <div className="flex flex-wrap p-3 mt-3">
+          <div className="flex flex-wrap justify-center p-3 mt-3">
             <Image src={htmlIcon} height={80} width={80} alt="Icon" />
             <Image src={cssIcon} height={80} width={80} alt="Icon" />
             <Image src={sassIcon} height={80} width={80} alt="Icon" />
@@ -39,11 +39,11 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="mt-5 border-4 border-blue-800">
-          <h1 className="bg-blue-800 text-center text-4xl text-neutral-100 rounded p-3">
+        <div className=" border-blue-800 border-4 mt-5">
+          <h1 className="bg-blue-800 text-neutral-100 text-center  rounded p-3 md:text-2xl lg:text-4xl">
             Back End
           </h1>
-          <div className="flex flex-wrap p-3 mt-3">
+          <div className="flex flex-wrap justify-center p-3 mt-3">
             <Image src={javascriptIcon} height={80} width={80} alt="Icon" />
             <Image src={typescriptIcon} height={80} width={80} alt="Icon" />
             <Image src={nextjsIcon} height={80} width={80} alt="Icon" />
@@ -52,11 +52,11 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="mt-5 border-4 border-blue-800">
-          <h1 className="bg-blue-800 text-center text-4xl text-neutral-100 rounded p-3">
+        <div className="border-blue-800 border-4 mt-5">
+          <h1 className="bg-blue-800 text-neutral-100 text-center  rounded p-3 md:text-2xl lg:text-4xl">
             Tools
           </h1>
-          <div className="flex flex-wrap p-3 mt-3">
+          <div className="flex flex-wrap justify-center p-3 mt-3">
             <Image src={visualstudioIcon} height={80} width={80} alt="Icon" />
             <Image src={vscodeIcon} height={80} width={80} alt="Icon" />
             <Image src={gitIcon} height={80} width={80} alt="Icon" />

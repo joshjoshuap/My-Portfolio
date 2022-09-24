@@ -8,14 +8,16 @@ import phoneIcon from "/public/icons/phone-icon.svg";
 
 const Contact = () => {
   return (
-    <div className="py-16 px-28">
-      <h1 className="text-blue-600 text-7xl font-semibold"> Lets  Talk</h1>
-      <div className="grid grid-cols px-6 md:grid-cols-2">
-        <div className="mt-5">
-          <h2 className="text-blue-800 text-4xl text-center font-semibold">
+    <div className="py-8 px-6 md:py-12 md:px-12 lg:py-16 lg:px-28">
+      <h1 className="text-blue-600 text-4xl text-center font-semibold md:text-5xl md:text-left lg:text-7xl">
+        Lets Talk
+      </h1>
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="my-5">
+          <h2 className="text-blue-800 text-2xl text-center font-semibold md:text-4xl">
             Socials
           </h2>
-          <div className="flex flex-wrap justify-center gap-10 mt-5">
+          <div className="flex wrap justify-center mt-5 lg:gap-8">
             <a href="https://www.facebook.com/joshjoshuap1">
               <Image
                 src={facebookIcon}
@@ -50,22 +52,34 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="w-fit my-3 mx-auto">
-          <h2 className="text-blue-800 text-4xl text-center font-semibold">
+        <div className="my-3">
+          <h2 className="text-blue-800 text-2xl text-center font-semibold md:text-4xl">
             Contact
           </h2>
-          <div className="flex gap-2 items-center my-2">
-            <Image src={emailIcon} height={80} width={80} alt="Contact Icon" />
-            <p className="border-b-4 text-xl hover:border-b-4 hover:border-blue-700 transition-all duration-300 ease-in-out">
-              josjoshuap1@gmail.com
-            </p>
-          </div>
+          <div className="flex-none md:flex md:gap-10">
+            <div className="flex gap-2 items-center my-2">
+              <Image
+                src={emailIcon}
+                height={60}
+                width={60}
+                alt="Contact Icon"
+              />
+              <a className="border-b-4 text-lg md:text-xl hover:border-b-4 hover:border-blue-700 transition-all duration-300 ease-in-out">
+                pautanes.joshua@gmail.com
+              </a>
+            </div>
 
-          <div className="flex gap-2 items-center my-2">
-            <Image src={phoneIcon} height={80} width={80} alt="Contact Icon" />
-            <p className="border-b-4 text-xl hover:border-b-4 hover:border-blue-700 transition-all duration-300 ease-in-out">
-              (63+) 9060268332
-            </p>
+            <div className="flex gap-2 items-center my-2">
+              <Image
+                src={phoneIcon}
+                height={60}
+                width={60}
+                alt="Contact Icon"
+              />
+              <a className="border-b-4 text-lg md:text-xl hover:border-b-4 hover:border-blue-700 transition-all duration-300 ease-in-out">
+                (63+) 9060268332
+              </a>
+            </div>
           </div>
         </div>
       </div>
