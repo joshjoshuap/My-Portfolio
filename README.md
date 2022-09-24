@@ -1,9 +1,10 @@
 # Personal Portfolio
 
-### Link: <a href="https://joshjoshuap.vercel.app/" target="_blank">joshjoshuap.vercel.app</a>
+### Link: <a href="https://www.joshjoshuap.site/" target="_blank">joshjoshuap.site/</a>
 
 ### Tecnologies:
 - Javascript
 - Tailwind CSS
 - ReactJS
 - NextJS
+- Vercel
