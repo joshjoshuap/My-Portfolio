@@ -68,7 +68,7 @@ const Contact = () => {
             />
           </div>
         </div>
-        <div className="my-5">
+        {/* <div className="my-5">
           <h2 className="text-blue-800 text-2xl text-center font-semibold md:text-4xl">
             Contact
           </h2>
@@ -83,7 +83,7 @@ const Contact = () => {
               contactIcon={phoneIcon}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </Section>
   );
