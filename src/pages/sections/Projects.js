@@ -15,7 +15,7 @@ import ProjectItem from "../../components/ProjectsItem";
 
 const Projects = () => {
   return (
-    <Section sectionTitle="Peronal Projects">
+    <Section sectionTitle="Personal Projects">
       <div className="grid grid-cols-1 gap-3 justify-center mt-5 md:grid-cols-2 md:gap-5 md:mt-5 lg:grid-cols-3 lg:gap-8">
         <ProjectItem
           projectTitle="Web Dev Resources"
@@ -51,7 +51,7 @@ const Projects = () => {
         <ProjectItem
           projectTitle="Techy Techy Zone"
           projectImage={techytechyZoneImage}
-          projectDescription="Simple Website contains gadgets, mobile and tech trends."
+          projectDescription="Simple Website contains gadgets, mobile and tech."
           projectWebLink="https://joshjoshuap-techytechzone.vercel.app/"
           projectRepoLink="https://github.com/joshjoshuap/techy-tech-zone"
           projectTechnologies={[
