@@ -10,8 +10,10 @@ import {
   reactjsIcon,
   nextjsIcon,
 } from "/src/js/image-assets";
+import Image from "next/image";
 import Section from "../../components/Sections";
 import ProjectItem from "../../components/ProjectsItem";
+import { githubIcon } from "../../js/image-assets";
 
 const Projects = () => {
   return (
@@ -61,6 +63,16 @@ const Projects = () => {
             { image: reactjsIcon },
           ]}
         />
+      </div>
+      <div className="text-center mt-5">
+        <a
+          className="border-neutral-900 border-2 rounded text-neutral-600 text-lg w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:bg-neutral-900 hover:text-neutral-100 transition ease-in"
+          href="https://github.com/joshjoshuap"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visit my Github Profile
+        </a>
       </div>
     </Section>
   );
