@@ -2,6 +2,7 @@ import {
   webDevResourcesImage,
   insightMarketImage,
   techytechyZoneImage,
+  postpostImage,
   htmlIcon,
   cssIcon,
   sassIcon,
@@ -13,7 +14,12 @@ import {
 import Image from "next/image";
 import Section from "../../components/Sections";
 import ProjectItem from "../../components/ProjectsItem";
-import { githubIcon } from "../../js/image-assets";
+import {
+  githubIcon,
+  javascriptIcon,
+  mongodbIcon,
+  nodejsIcon,
+} from "../../js/image-assets";
 
 const Projects = () => {
   return (
@@ -27,8 +33,6 @@ const Projects = () => {
           projectWebLink="https://joshjoshuap-webdevresources.vercel.app/"
           projectRepoLink="https://github.com/joshjoshuap/webdev-resources"
           projectTechnologies={[
-            { image: htmlIcon },
-            { image: cssIcon },
             { image: sassIcon },
             { image: reactjsIcon },
             { image: nextjsIcon },
@@ -42,8 +46,6 @@ const Projects = () => {
           projectWebLink="https://joshjoshuap-insightmarketapi.vercel.app/"
           projectRepoLink="https://github.com/joshjoshuap/insight-market-api"
           projectTechnologies={[
-            { image: htmlIcon },
-            { image: cssIcon },
             { image: tailwindIcon },
             { image: reactjsIcon },
             { image: nextjsIcon },
@@ -57,10 +59,23 @@ const Projects = () => {
           projectWebLink="https://joshjoshuap-techytechzone.vercel.app/"
           projectRepoLink="https://github.com/joshjoshuap/techy-tech-zone"
           projectTechnologies={[
-            { image: htmlIcon },
-            { image: cssIcon },
+            { image: javascriptIcon },
             { image: bootstrapIcon },
             { image: reactjsIcon },
+          ]}
+        />
+
+        <ProjectItem
+          projectTitle="Post Post"
+          projectImage={postpostImage}
+          projectDescription="A simple posting site where you can share your idea"
+          projectWebLink="https://post-post.onrender.com/"
+          projectRepoLink="https://github.com/joshjoshuap/post-post"
+          projectTechnologies={[
+            { image: tailwindIcon },
+            { image: reactjsIcon },
+            { image: nodejsIcon },
+            { image: mongodbIcon },
           ]}
         />
       </div>

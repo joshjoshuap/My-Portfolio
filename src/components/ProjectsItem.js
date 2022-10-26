@@ -17,7 +17,7 @@ const ProjectItem = (props) => {
           <h3 className="bg-blue-800 text-center text-xl text-neutral-100 p-1">
             Technologies Used
           </h3>
-          <div className="flex flex-wrap justify-center">
+          <div className="flex flex-wrap gap-2 justify-center">
             {props.projectTechnologies.map(SkillImage)}
           </div>
         </div>
