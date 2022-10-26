@@ -30,6 +30,7 @@ import ubuntuIcon from "/public/icons/ubuntu-icon.svg";
 import webDevResourcesImage from "/public/images/web-dev-resources.jpg";
 import insightMarketImage from "/public/images/insight-market.jpg";
 import techytechyZoneImage from "/public/images/techy-techy-zone.jpg";
+import postpostImage from "/public/images/post-post.png";
 
 /* Contact Icon */
 import facebookIcon from "/public/icons/facebook-icon.svg";
@@ -66,6 +67,7 @@ export {
   webDevResourcesImage,
   insightMarketImage,
   techytechyZoneImage,
+  postpostImage,
   facebookIcon,
   instagramIcon,
   twitterIcon,
