@@ -1,8 +1,11 @@
 # Personal Portfolio
 
-### Link: <a href="https://www.joshjoshuap.site/" target="_blank">joshjoshuap.site/</a>
+## Link: [joshjoshuap.site](https://www.joshjoshuap.site)
 
-### Tecnologies:
+### Technologies
+
+- HTML
+- CSS
 - Javascript
 - Tailwind CSS
 - ReactJS
