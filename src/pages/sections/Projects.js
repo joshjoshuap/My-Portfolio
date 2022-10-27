@@ -23,8 +23,8 @@ import {
 
 const Projects = () => {
   return (
-    <Section sectionTitle="Personal Projects">
-      <div className="grid grid-cols-1 gap-3 justify-center mt-5 md:grid-cols-2 md:gap-5 md:mt-5 lg:grid-cols-3 lg:gap-8">
+    <Section sectionTitle="Personal Projects" className='bg-neutral-900'>
+      <div className="grid grid-cols-1 gap-3 justify-center mt-5 md:grid-cols-2 md:gap-5 xl:grid-cols-3 lg:gap-8">
         <ProjectItem
           projectTitle="Web Dev Resources"
           projectImage={webDevResourcesImage}
@@ -81,7 +81,7 @@ const Projects = () => {
       </div>
       <div className="text-center mt-5">
         <a
-          className="border-neutral-900 border-2 rounded text-neutral-600 text-lg w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:bg-neutral-900 hover:text-neutral-100 transition ease-in"
+          className="bg-neutral-200 border-neutral-900 border-2 rounded text-neutral-900 text-lg font-semibold w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:bg-neutral-100 hover:text-neutral-900 transition ease-in"
           href="https://github.com/joshjoshuap"
           target="_blank"
           rel="noreferrer"

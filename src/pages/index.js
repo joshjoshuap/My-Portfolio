@@ -10,14 +10,13 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main id='main'>
+      <main id="main">
         <About />
         <Services />
         <Skills />
         <Projects />
         {/* <Contact /> */}
       </main>
-      <Footer />
     </>
   );
 }

@@ -23,8 +23,8 @@ import SkillItem from "../../components/SkillsItem";
 
 const Skills = () => {
   return (
-    <Section sectionTitle="Technologies I Used">
-      <div className="grid grid-cols mt-3 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-10">
+    <Section sectionTitle="Technologies">
+      <div className="grid grid-cols gap-5 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-10">
         <SkillItem
           skillTitle="Front End"
           skillImages={[

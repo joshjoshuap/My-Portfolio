@@ -27,9 +27,9 @@ import figmaIcon from "/public/icons/figma-icon.svg";
 import ubuntuIcon from "/public/icons/ubuntu-icon.svg";
 
 /* Projects Image */
-import webDevResourcesImage from "/public/images/web-dev-resources.jpg";
-import insightMarketImage from "/public/images/insight-market.jpg";
-import techytechyZoneImage from "/public/images/techy-techy-zone.jpg";
+import webDevResourcesImage from "/public/images/web-dev-resources.png";
+import insightMarketImage from "/public/images/insight-market.png";
+import techytechyZoneImage from "/public/images/techy-techy-zone.png";
 import postpostImage from "/public/images/post-post.png";
 
 /* Contact Icon */
