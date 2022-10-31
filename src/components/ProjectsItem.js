@@ -6,7 +6,7 @@ const SkillImage = (props) => {
 
 const ProjectItem = (props) => {
   return (
-    <div className="bg-neutral-200 border-blue-800 border-4 rounded my-5">
+    <div className="bg-neutral-100 border-blue-800 border-4 rounded my-5">
       <Image src={props.projectImage} alt="Web Dev Screenshot" />
       <div className="p-5">
         <h1 className="text-blue-700 text-center text-3xl font-semibold mb-5">
@@ -15,7 +15,7 @@ const ProjectItem = (props) => {
         <p className="text-lg text-neutral-900 mb-5">
           {props.projectDescription}
         </p>
-        <div className="border-neutral-800 border-2">
+        <div className="border-blue-800 border-2">
           <h3 className="bg-blue-800 text-center text-xl text-neutral-100 p-1">
             Technologies Used
           </h3>
