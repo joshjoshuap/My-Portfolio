@@ -25,7 +25,7 @@ const SocialInfo = (props) => {
 const Header = () => {
   return (
     <>
-      <header className="bg-neutral-900 py-10 md:py-12 md:px-12 lg:py-16 lg:px-18 xl:px-28">
+      <header className="bg-gray-900 py-10 md:py-12 md:px-12 lg:py-16 lg:px-18 xl:px-28">
         <div className="grid grid-cols-1 text-white md:grid-cols-2 ">
           <div className="self-center">
             <h1 className="text-neutral-50 md:tracking-wide block text-center text-4xl md:text-6xl md:text-left lg:text-7xl xl:text-8xl">
@@ -35,9 +35,9 @@ const Header = () => {
               </span>
             </h1>
             <p className="text-neutral-50 px-8 md:lg mt-5 md:w-3/5 md:px-1 md:mt-5 lg:text-xl lg:w-3/5 lg:mt-8">
-              A self-taught and passionate person, Interested in programming and
-              coding. Have skills and knowledge in web development and web
-              design.
+              A passionate and aspiring web/software developer, Interested in
+              programming and coding. Have skills and knowledge in web
+              development and web design.
             </p>
             <div className="flex wrap justify-center mt-10 md:justify-start">
               <SocialInfo
