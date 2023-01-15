@@ -35,7 +35,7 @@ const Repository = () => {
 
         <RepositoryCard
           title=" Learn PHP & Laravel"
-          repoLink="https://github.com/joshjoshuap/Learn-PHPttps://github.com/joshjoshuap/Learn-React"
+          repoLink="https://github.com/joshjoshuap/Learn-PHP"
         />
       </div>
       <div className="text-center mt-10">
