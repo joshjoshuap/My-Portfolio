@@ -15,7 +15,7 @@ const Repository = () => {
         />
         <RepositoryCard
           title=" Learn React"
-          repoLink="https://github.com/joshjoshuap/Learn-React-Native"
+          repoLink="https://github.com/joshjoshuap/Learn-React"
         />
 
         <RepositoryCard
@@ -25,7 +25,7 @@ const Repository = () => {
 
         <RepositoryCard
           title=" Learn React Native"
-          repoLink="https://github.com/joshjoshuap/Learn-React"
+          repoLink="https://github.com/joshjoshuap/Learn-React-Native"
         />
 
         <RepositoryCard
