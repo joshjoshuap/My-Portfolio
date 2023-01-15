@@ -1,25 +1,15 @@
 import {
   webDevResourcesImage,
   insightMarketImage,
-  techytechyZoneImage,
   postpostImage,
-  htmlIcon,
-  cssIcon,
   sassIcon,
-  bootstrapIcon,
   tailwindIcon,
   reactjsIcon,
   nextjsIcon,
 } from "/src/js/image-assets";
-import Image from "next/image";
 import Section from "../../components/Sections";
 import ProjectItem from "../../components/ProjectsItem";
-import {
-  githubIcon,
-  javascriptIcon,
-  mongodbIcon,
-  nodejsIcon,
-} from "../../js/image-assets";
+import { mongodbIcon, nodejsIcon } from "../../js/image-assets";
 
 const Projects = () => {
   return (
@@ -53,19 +43,6 @@ const Projects = () => {
         />
 
         <ProjectItem
-          projectTitle="Techy Techy Zone"
-          projectImage={techytechyZoneImage}
-          projectDescription="Simple Website contains gadgets, mobile and tech."
-          projectWebLink="https://joshjoshuap-techytechzone.vercel.app/"
-          projectRepoLink="https://github.com/joshjoshuap/techy-tech-zone"
-          projectTechnologies={[
-            { image: javascriptIcon },
-            { image: bootstrapIcon },
-            { image: reactjsIcon },
-          ]}
-        />
-
-        <ProjectItem
           projectTitle="Post Post"
           projectImage={postpostImage}
           projectDescription="A simple posting site where you can share your idea"
@@ -78,16 +55,6 @@ const Projects = () => {
             { image: mongodbIcon },
           ]}
         />
-      </div>
-      <div className="text-center mt-5">
-        <a
-          className="bg-neutral-900 text-neutral-100 border-neutral-900 border-2 rounded text-lg font-semibold w-fit h-fit py-3 px-5 mx-auto md:mx-0 hover:bg-neutral-100 hover:text-neutral-900 transition ease-in"
-          href="https://github.com/joshjoshuap"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Visit my Github Profile
-        </a>
       </div>
     </Section>
   );
