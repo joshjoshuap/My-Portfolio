@@ -5,8 +5,6 @@ import {
   instagramIcon,
   twitterIcon,
   linkedinIcon,
-  emailIcon,
-  phoneIcon,
 } from "/src/js/image-assets";
 
 const SocialInfo = (props) => {
@@ -37,7 +35,7 @@ const Header = () => {
             <p className="text-neutral-50 px-8 md:lg mt-5 md:w-3/5 md:px-1 md:mt-5 lg:text-xl lg:w-3/5 lg:mt-8">
               A passionate and aspiring web/software developer, Interested in
               programming and coding. Have skills and knowledge in web
-              development and web design.
+              development and web design. Love Technologies and computers
             </p>
             <div className="flex wrap justify-center mt-10 md:justify-start">
               <SocialInfo
@@ -65,7 +63,7 @@ const Header = () => {
                 href="#main"
                 className="text-neutral-50 text-lg font-semibold border-2 border-neutral-50 rounded w-fit py-3 px-5 hover:text-blue-700 hover:bg-neutral-50 transition-all duration-300 ease-in-out"
               >
-                Know more
+                About Me
               </a>
             </div>
           </div>

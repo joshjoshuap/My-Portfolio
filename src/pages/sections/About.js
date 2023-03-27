@@ -12,6 +12,20 @@ const About = () => {
         management. I use technologies that are applicable to industry standards
         and tech trends.
       </p>
+
+      <p className="text-sm text-center indent-3 mt-3 md:text-justify md:text-lg md:indent-5 md:pl-5 md:mt-5 lg:text-xl lg:leading-relaxed">
+        I am currently employed as a computer technician and designer in small
+        computer store. Interested and have passion in both software and
+        hardware. While working as a computer tech, for my spare time I upskill
+        and improving my programming skill. I want to be good at programming
+        also in computer hardware.
+      </p>
+
+      <p className="text-sm text-center indent-3 mt-3 md:text-justify md:text-lg md:indent-5 md:pl-5 md:mt-5 lg:text-xl lg:leading-relaxed">
+        For now i still learning basics and advance topic such as frameworks,
+        databases, alogrithm and complex design. Also trying to make projects
+        and do some freelance to showcase my skills and learn a lot.
+      </p>
     </Section>
   );
 };
