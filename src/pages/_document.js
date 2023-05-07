@@ -14,7 +14,7 @@ export default function Document() {
           href="/favicon.ico"
         ></link>
       </Head>
-      <body className="bg-neutral-200">
+      <body className="font-serif bg-neutral-200">
         <Main />
         <NextScript />
       </body>

@@ -23,21 +23,21 @@ const SocialInfo = (props) => {
 const Header = () => {
   return (
     <>
-      <header className="bg-gray-900 py-10 md:py-12 md:px-12 lg:py-16 lg:px-18 xl:px-28">
+      <header className="py-10 bg-gray-950 md:py-12 md:px-12 lg:py-16 lg:px-18 xl:px-28">
         <div className="grid grid-cols-1 text-white md:grid-cols-2 ">
           <div className="self-center">
-            <h1 className="text-neutral-50 md:tracking-wide block text-center text-4xl md:text-6xl md:text-left lg:text-7xl xl:text-8xl">
+            <h1 className="block text-4xl text-center text-neutral-50 md:tracking-wide md:text-6xl md:text-left lg:text-9xl xl:text-8xl">
               <span className="inline-block mr-3 md:block">Joshua</span>
-              <span className="text-blue-600 inline-block md:block">
+              <span className="inline-block font-serif text-blue-600 md:block">
                 Pautanes
               </span>
             </h1>
-            <p className="text-neutral-50 px-8 md:lg mt-5 md:w-3/5 md:px-1 md:mt-5 lg:text-xl lg:w-3/5 lg:mt-8">
+            <p className="px-8 mt-5 text-neutral-50 md:lg md:w-3/5 md:px-1 md:mt-5 lg:text-xl lg:w-3/5 lg:mt-8">
               A passionate and aspiring web/software developer, Interested in
               programming and coding. Have skills and knowledge in web
               development and web design. Love Technologies and computers
             </p>
-            <div className="flex wrap justify-center mt-10 md:justify-start">
+            <div className="flex justify-center mt-10 wrap md:justify-start">
               <SocialInfo
                 socialLink="https://www.facebook.com/joshjoshuap1"
                 socialIcon={facebookIcon}
@@ -58,10 +58,10 @@ const Header = () => {
                 socialIcon={linkedinIcon}
               />
             </div>
-            <div className="text-center mt-10 md:text-left">
+            <div className="mt-10 text-center md:text-left">
               <a
                 href="#main"
-                className="text-neutral-50 text-lg font-semibold border-2 border-neutral-50 rounded w-fit py-3 px-5 hover:text-blue-700 hover:bg-neutral-50 transition-all duration-300 ease-in-out"
+                className="px-5 py-3 text-lg font-semibold transition-all duration-300 ease-in-out border-2 rounded text-neutral-50 border-neutral-50 w-fit hover:text-blue-700 hover:bg-neutral-50"
               >
                 About Me
               </a>
