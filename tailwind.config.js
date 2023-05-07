@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ["Rubik", "sans-serif"],
-      serif: ["Roboto Slob", "serif"],
+      sans: ["Roboto Slab", "sans-serif"],
+      serif: ["Poppins", "serif"],
     },
   },
   plugins: [],
