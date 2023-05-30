@@ -23,56 +23,37 @@ const SocialInfo = (props) => {
 const Header = () => {
   return (
     <>
-      <header className="py-10 bg-gray-950 md:py-12 md:px-12 lg:py-16 lg:px-18 xl:px-28">
-        <div className="grid grid-cols-1 text-white md:grid-cols-2 ">
-          <div className="self-center">
-            <h1 className="block text-4xl text-center text-neutral-50 md:tracking-wide md:text-6xl md:text-left lg:text-9xl xl:text-8xl">
-              <span className="inline-block mr-3 md:block">Joshua</span>
-              <span className="inline-block font-serif text-blue-600 md:block">
-                Pautanes
-              </span>
-            </h1>
-            <p className="px-8 mt-5 text-neutral-50 md:lg md:w-3/5 md:px-1 md:mt-5 lg:text-xl lg:w-3/5 lg:mt-8">
-              A passionate and aspiring web/software developer, Interested in
-              programming and coding. Have skills and knowledge in web
-              development and web design. Love Technologies and computers
+      <header className="bg-black py-10 md:py-12 md:px-12 lg:py-16 lg:px-18 xl:px-28">
+        <div className="grid justify-items-center">
+          <h1 className=" text-neutral-50 text-center text-4xl md:text-6xl md:text-left lg:text-9xl font-sans">
+            <span className="mr-3 text-blue-600 font-bold">JOSHUA</span>
+            <span className=" ">PAUTANES</span>
+          </h1>
+          <div className="text-center text-neutral-50 px-8 md:lg mt-5 md:w-3/5 md:px-1 md:mt-5 lg:text-xl lg:w-4/6 lg:mt-8 font-sans">
+            <p>A passionate and aspiring web/software developer</p>
+            <p>
+              Interested in programming, web development, and mobile application
             </p>
-            <div className="flex justify-center mt-10 wrap md:justify-start">
-              <SocialInfo
-                socialLink="https://www.facebook.com/joshjoshuap1"
-                socialIcon={facebookIcon}
-              />
-
-              <SocialInfo
-                socialLink="https://www.instagram.com/joshjoshuap1"
-                socialIcon={instagramIcon}
-              />
-
-              <SocialInfo
-                socialLink="https://twitter.com/joshjoshuap1"
-                socialIcon={twitterIcon}
-              />
-
-              <SocialInfo
-                socialLink="https://www.linkedin.com/in/joshuapautanes"
-                socialIcon={linkedinIcon}
-              />
-            </div>
-            <div className="mt-10 text-center md:text-left">
-              <a
-                href="#main"
-                className="px-5 py-3 text-lg font-semibold transition-all duration-300 ease-in-out border-2 rounded text-neutral-50 border-neutral-50 w-fit hover:text-blue-700 hover:bg-neutral-50"
-              >
-                About Me
-              </a>
-            </div>
           </div>
-          <div className="hidden md:flex md:justify-center">
-            <Image
-              src={headingImage}
-              className="rounded-lg"
-              width={450}
-              alt="My Collage Picture"
+          <div className="flex wrap justify-center mt-10 md:justify-start">
+            <SocialInfo
+              socialLink="https://www.facebook.com/joshjoshuap1"
+              socialIcon={facebookIcon}
+            />
+
+            <SocialInfo
+              socialLink="https://www.instagram.com/joshjoshuap1"
+              socialIcon={instagramIcon}
+            />
+
+            <SocialInfo
+              socialLink="https://twitter.com/joshjoshuap1"
+              socialIcon={twitterIcon}
+            />
+
+            <SocialInfo
+              socialLink="https://www.linkedin.com/in/joshuapautanes"
+              socialIcon={linkedinIcon}
             />
           </div>
         </div>
