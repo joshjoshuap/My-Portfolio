@@ -4,7 +4,7 @@ import Footer from "./sections/Footer";
 import Header from "./sections/Header";
 import Projects from "./sections/Projects";
 import Repository from "./sections/Repository";
-import Services from "./sections/Services";
+// import Services from "./sections/Services";
 import Skills from "./sections/Skills";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <main id="main">
         <About />
-        <Services />
+        {/* <Services /> */}
         <Skills />
         <Projects />
         <Repository />

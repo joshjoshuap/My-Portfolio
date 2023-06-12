@@ -17,6 +17,7 @@ import {
   bashTerminalIcon,
   figmaIcon,
   ubuntuIcon,
+  canvaIcon,
 } from "/src/js/image-assets";
 import Section from "../../components/Sections";
 import SkillItem from "../../components/SkillsItem";
@@ -24,7 +25,7 @@ import SkillItem from "../../components/SkillsItem";
 const Skills = () => {
   return (
     <Section sectionTitle="Technologies">
-      <div className="grid grid-cols gap-5 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-10">
+      <div className="grid gap-5 grid-cols md:grid-cols-2 md:gap-8 lg:gap-10">
         <SkillItem
           skillTitle="Front End"
           skillImages={[
@@ -49,16 +50,20 @@ const Skills = () => {
         />
 
         <SkillItem
-          skillTitle="Tools"
+          skillTitle="Development"
           skillImages={[
             { image: visualstudioIcon },
             { image: vscodeIcon },
             { image: gitIcon },
             { image: githubIcon },
             { image: bashTerminalIcon },
-            { image: figmaIcon },
             { image: ubuntuIcon },
           ]}
+        />
+
+        <SkillItem
+          skillTitle="Graphic Design"
+          skillImages={[{ image: figmaIcon }, { image: canvaIcon }]}
         />
       </div>
     </Section>
