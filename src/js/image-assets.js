@@ -25,6 +25,7 @@ import githubIcon from "/public/icons/github-icon.svg";
 import bashTerminalIcon from "/public/icons/bashterminal-icon.svg";
 import figmaIcon from "/public/icons/figma-icon.svg";
 import ubuntuIcon from "/public/icons/ubuntu-icon.svg";
+import canvaIcon from "/public/icons/canva-icon.svg";
 
 /* Projects Image */
 import webDevResourcesImage from "/public/images/web-dev-resources.png";
@@ -74,4 +75,5 @@ export {
   linkedinIcon,
   emailIcon,
   phoneIcon,
+  canvaIcon,
 };
