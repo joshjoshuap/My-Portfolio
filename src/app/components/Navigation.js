@@ -32,11 +32,11 @@ export default function Navigation() {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-blue">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="pt-4 bg-blue">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-          className="sm:hidden text-white"
+          className="text-white sm:hidden"
         />
         <NavbarBrand>
           <Image src={hackerLogo} height={60} width={60} />
@@ -44,55 +44,55 @@ export default function Navigation() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-10" justify="center">
+      <NavbarContent className="hidden gap-10 sm:flex" justify="center">
         <NavbarItem>
-          <Link className="text-white" href="#home">
+          <Link className="text-xl text-white" href="#home">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-white" href="#about" aria-current="page">
+          <Link className="text-xl text-white" href="#about" aria-current="page">
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-white" href="#skills">
+          <Link className="text-xl text-white" href="#skills">
             Skills
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-white" href="#projects">
+          <Link className="text-xl text-white" href="#projects">
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-white" href="#contact">
+          <Link className="text-xl text-white" href="#contact">
             Contact
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="flex">
-          <Button className="bg-lightgreen text-white rounded-sm" href="#">
+          <Button className="text-xl text-white rounded-sm bg-lightgreen" href="#">
             My Resume
           </Button>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="bg-blue">
         <NavbarMenuItem className="flex flex-col items-center gap-5">
-          <Link className="text-white text-2xl" href="#home">
+          <Link className="text-2xl text-white " href="#home">
             Home
           </Link>
-          <Link className="text-white text-2xl" href="#about">
+          <Link className="text-2xl text-white " href="#about">
             About
           </Link>
-          <Link className="text-white text-2xl" href="#skills">
+          <Link className="text-2xl text-white " href="#skills">
             Skills
           </Link>
-          <Link className="text-white text-2xl" href="#projects">
+          <Link className="text-2xl text-white " href="#projects">
             Projects
           </Link>
-          <Link className="text-white text-2xl" href="#contact">
+          <Link className="text-2xl text-white " href="#contact">
             Contact
           </Link>
         </NavbarMenuItem>
