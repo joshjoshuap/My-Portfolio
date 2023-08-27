@@ -1,4 +1,6 @@
 import './globals.css';
+import { Providers } from './providers';
+import Navigation from './components/Navigation';
 
 export const metadata = {
   title: 'Joshua Pautanes - Potfolio',
@@ -21,7 +23,11 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;700&display=swap"
           rel="stylesheet"></link>
       </head>
-      <body className="font-sans bg-white">{children}</body>
+      <body className="font-sans bg-white">
+        <Providers>
+          <Navigation>{children}</Navigation>
+        </Providers>
+      </body>
     </html>
   );
 }

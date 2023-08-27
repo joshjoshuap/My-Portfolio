@@ -1,3 +1,5 @@
+import { Button } from '@nextui-org/button';
+
 export default function Home() {
-  return <h1>Hello</h1>;
+  return <Button className="bg-green">Click me</Button>;
 }
