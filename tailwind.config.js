@@ -27,6 +27,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
+      mono: ['Roboto', 'mono'],
       serif: ['Roboto Slob', 'serif'],
     },
   },
