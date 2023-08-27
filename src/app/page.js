@@ -1,5 +1,11 @@
-import { Button } from '@nextui-org/button';
+import Navigation from './components/Navigation';
+import Header from './sections/Header';
 
 export default function Home() {
-  return <Button className="bg-green">Click me</Button>;
+  return (
+    <>
+      <Navigation />
+      <Header />
+    </>
+  );
 }
