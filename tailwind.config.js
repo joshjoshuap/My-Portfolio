@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         black: '#040D12',
         gray: '#454545',
-        white: '#EFF5F5',
+        white: '#F5F5F5',
         darkblue: '#27374D',
         blue: '#164B60',
         lightblue: '#3A98B9',
@@ -28,7 +28,7 @@ module.exports = {
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
       mono: ['Roboto', 'mono'],
-      serif: ['Roboto Slob', 'serif'],
+      serif: ['Roboto Slab', 'serif'],
     },
   },
   darkMode: 'class',
