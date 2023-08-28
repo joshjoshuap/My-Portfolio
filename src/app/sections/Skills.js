@@ -121,8 +121,8 @@ export default function Skills() {
         <h1 className="text-white text-6xl font-serif font-bold flex justify-center">Skills</h1>
         <SkillsCard SkillTitle="FRONT END" icons={frontEnd} className="text-lightorange" />
         <SkillsCard SkillTitle="BACK END" icons={backEnd} className="text-lightgreen" />
-        <SkillsCard SkillTitle="Development" icons={development} className="text-lightorange" />
-        <SkillsCard SkillTitle="Design" icons={design} className="text-lightgreen" />
+        <SkillsCard SkillTitle="DEVELOPMENT" icons={development} className="text-lightorange" />
+        <SkillsCard SkillTitle="DESIGN" icons={design} className="text-lightgreen" />
       </div>
     </div>
   );
