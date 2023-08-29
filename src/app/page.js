@@ -1,6 +1,7 @@
 import Navigation from './components/Navigation';
 import About from './sections/About';
 import Header from './sections/Header';
+import Project from './sections/Project';
 import Skills from './sections/Skills';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <About />
       <Skills />
+      <Project />
     </>
   );
 }
