@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation';
 import About from './sections/About';
+import Contact from './sections/Contact';
 import Design from './sections/Design';
 import Header from './sections/Header';
 import Project from './sections/Project';
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills />
       <Project />
       <Design />
+      <Contact />
     </>
   );
 }
