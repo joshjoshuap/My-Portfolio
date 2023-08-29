@@ -40,7 +40,7 @@ let project = [
 
 export default function Project() {
   return (
-    <div className="w-10/12 py-10 mx-auto" id="project">
+    <div className="w-10/12 py-10 mx-auto" id="projects">
       <h1 className="font-serif text-6xl font-bold text-blue">Projects</h1>
       <div className="grid grid-cols-3 gap-10 mt-10">
         <ProjectCard

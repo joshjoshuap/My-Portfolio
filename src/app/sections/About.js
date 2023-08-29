@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="w-10/12 py-10 mx-auto" id="about">
+    <div className="w-10/12 py-12 mx-auto" id="about">
       <h1 className="text-6xl text-blue font-serif font-bold font mb-5">About</h1>
       <p className="mb-5 text-xl indent-10 text-black">
         I graduated with Bachelor's Degree in Information Technology at Quezon City University and

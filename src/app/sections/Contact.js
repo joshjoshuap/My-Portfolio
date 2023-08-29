@@ -11,7 +11,7 @@ import {
 
 export default function Contact() {
   return (
-    <div className="bg-blue" id="skills">
+    <div className="bg-blue" id="contact">
       <div className="w-10/12 py-10 mx-auto" id="skills">
         <h1 className="text-white text-6xl font-serif font-bold text-center">Contact</h1>
 

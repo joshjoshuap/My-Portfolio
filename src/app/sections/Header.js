@@ -33,12 +33,11 @@ export default function Header() {
               <Image src={githubIcon} height={70} width={70} />
             </Link>
           </div>
-
-          <Button
-            className="px-8 py-6 mt-10 text-2xl text-white rounded-md bg-lightgreen"
-            href="#about">
-            Let's Start
-          </Button>
+          <Link href="#about">
+            <Button className="px-8 py-6 mt-10 text-2xl text-white rounded-md bg-lightgreen">
+              Let's Start
+            </Button>
+          </Link>
         </div>
         <div className="justify-self-end">
           <Image src={headerImage} height={800} width={800} />
