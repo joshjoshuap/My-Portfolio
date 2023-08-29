@@ -60,9 +60,13 @@ export default function Navigation() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="flex">
-          <Button className="text-xl text-white rounded-sm bg-lightgreen" href="#">
-            My Resume
-          </Button>
+          <Link
+            href="https://mega.nz/file/4OphRTqL#ctmj5gdwPRaXISIY812lEsXgNq76UIujH3wrx7P2jHk"
+            target="_blank">
+            <Button className="text-xl text-white rounded-sm bg-lightgreen" href="#">
+              My Resume
+            </Button>
+          </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="bg-blue">
