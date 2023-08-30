@@ -33,7 +33,6 @@ let projects = [
     website: 'https://joshjoshuap-insightmarketapi.vercel.app/',
     technologies: [
       { title: 'Taiwlind Icon', icon: tailwindIcon },
-      { title: 'React Icon', icon: reactjsIcon },
       { title: 'ReactJS Icon', icon: reactjsIcon },
       { title: 'NextJS Icon', icon: nextjsIcon },
     ],
