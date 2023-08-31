@@ -69,7 +69,7 @@ export default function Navigation() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="bg-blue">
+      <NavbarMenu className="pt-10 bg-blue">
         <NavbarMenuItem className="flex flex-col items-center gap-5">
           <Link className="text-2xl text-white " href="#home">
             Home

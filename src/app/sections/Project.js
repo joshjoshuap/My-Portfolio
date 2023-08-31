@@ -54,9 +54,9 @@ let projects = [
 
 export default function Project() {
   return (
-    <div className="w-10/12 py-10 mx-auto" id="projects">
+    <div className="w-11/12 py-10 mx-auto xl:w-10/12" id="projects">
       <h1 className="font-serif text-6xl font-bold text-blue">Projects</h1>
-      <div className="grid grid-cols-3 gap-10 mt-10">
+      <div className="flex flex-col gap-10 mt-10 xl:flex-row">
         {projects.map((item) => (
           <ProjectCard
             title={item.title}

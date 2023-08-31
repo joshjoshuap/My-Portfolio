@@ -39,15 +39,15 @@ let designPicture = [
 
 export default function Design() {
   return (
-    <div className="w-10/12 py-10 mx-auto" id="project">
+    <div className="w-11/12 py-10 mx-auto xl:w-10/12" id="project">
       <h1 className="font-serif text-6xl font-bold text-blue">Design</h1>
 
-      <div className="grid grid-cols-4 justify-center gap-3 mt-5">
+      <div className="grid justify-center grid-cols-2 gap-3 mt-5 md:grid-cols-3 xl:grid-cols-4">
         {designPicture.map((item) => (
           <Image
             isZoomed
             src={item.image}
-            className="hover:scale-125 transition duration-500 cursor-pointer"
+            className="transition duration-500 cursor-pointer hover:scale-125"
           />
         ))}
       </div>
