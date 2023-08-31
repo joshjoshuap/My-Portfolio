@@ -9,38 +9,42 @@ import githubIcon from '/public/icons/github-icon.svg';
 
 export default function Header() {
   return (
-    <header className="pt-16 pb-10 font-mono font-normal bg-blue">
-      <div className="flex w-10/12 mx-auto text-white">
-        <div>
-          <h3 className="pb-2 text-4xl text-lightorange">Hello There!</h3>
-          <div className="py-3">
-            <span className="px-2 text-6xl">I'M</span>
-            <span className="px-2 text-9xl text-lightgreen">Joshua,</span>
+    <header className="pt-8 pb-6 font-mono font-normal xl:pb-10 lg:pt-10 xl:pt-16 bg-blue">
+      <div className="w-11/12 mx-auto text-white md:grid md:grid-cols-2 xl:w-10/12 ">
+        <div className="text-center md:text-left">
+          <h3 className="pb-2 text-xl text-center md:text-left lg:text-2xl xl:text-4xl text-lightorange">
+            Hello There!
+          </h3>
+          <div className="py-3 ">
+            <span className="pr-2 text-2xl lg:text-2xl xl:text-4xl">I'M</span>
+            <span className="text-6xl xl:text-8xl 2xl:9xl text-lightgreen">Joshua,</span>
           </div>
-          <h3 className="w-10/12 text-4xl">Aspiring Web/Mobile Developer and Graphic Designer</h3>
+          <h3 className="text-xl md:w-10/12 xl:w-10/12 lg:text-xl xl:text-3xl">
+            Aspiring Web/Mobile Developer and Graphic Designer
+          </h3>
 
-          <div className="flex gap-2 mt-10">
+          <div className="flex justify-center gap-2 mt-4 md:justify-start lg:mt-6 xl:mt-10">
             <Link href="https://www.facebook.com/joshjoshuap1" target="_blank">
-              <Image src={facebookIcon} height={70} width={70} />
+              <Image src={facebookIcon} className="w-14 lg:w-16 2xl:w-20" />
             </Link>
             <Link href="https://www.instagram.com/joshjoshuap1/" target="_blank">
-              <Image src={instagramIcon} height={70} width={70} />
+              <Image src={instagramIcon} className="w-14 lg:w-16 2xl:w-20" />
             </Link>
             <Link href="https://www.linkedin.com/in/joshuapautanes/" target="_blank">
-              <Image src={linkedinIcon} height={70} width={70} />
+              <Image src={linkedinIcon} className="w-14 lg:w-16 2xl:w-20" />
             </Link>
             <Link href="https://github.com/joshjoshuap" target="_blank">
-              <Image src={githubIcon} height={70} width={70} />
+              <Image src={githubIcon} className="w-14 lg:w-16 2xl:w-20" />
             </Link>
           </div>
           <Link href="#about">
-            <Button className="px-8 py-6 mt-10 text-2xl text-white rounded-md bg-lightgreen">
+            <Button className="px-8 py-6 mt-6 text-2xl text-white rounded-md xl:mt-10 bg-lightgreen">
               Let's Start
             </Button>
           </Link>
         </div>
-        <div className="justify-self-end">
-          <Image src={headerImage} height={800} width={800} />
+        <div className="self-center hidden md:block">
+          <Image src={headerImage} className="w-screen" />
         </div>
       </div>
     </header>
