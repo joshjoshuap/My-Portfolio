@@ -16,14 +16,14 @@ export default function Contact() {
         <h1 className="font-serif text-6xl font-bold text-center text-white">Contact</h1>
 
         <div className="flex flex-col items-center gap-10 mt-10 xl:justify-center xl:flex-row">
-          <div className="flex items-center w-full gap-2 p-3 rounded-lg xl:w-fit bg-skywhite">
+          <div className="flex items-center w-full xl:w-fit gap-2 p-3 rounded-lg bg-skywhite">
             <Image src={phoneIcon} />
-            <h2 className="text-xl xl:text-2xl">(63+)9060268332</h2>
+            <h2 className="">(63+)9060268332</h2>
           </div>
 
-          <div className="flex items-center w-full gap-2 p-3 rounded-lg xl:w-fit bg-skywhite ">
+          <div className="flex items-center w-full xl:w-fit gap-2 p-3 rounded-lg bg-skywhite ">
             <Image src={mailIcon} />
-            <h2 className="text-xl xl:text-2xl">pautanes.joshua@gmail.com</h2>
+            <h2 className="">pautanes.joshua@gmail.com</h2>
           </div>
         </div>
         <div className="flex justify-center gap-2 mt-10">
