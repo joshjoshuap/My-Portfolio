@@ -12,18 +12,18 @@ import {
 export default function Contact() {
   return (
     <div className="bg-blue" id="contact">
-      <div className="w-10/12 py-10 mx-auto" id="skills">
-        <h1 className="text-white text-6xl font-serif font-bold text-center">Contact</h1>
+      <div className="w-11/12 py-10 mx-auto xl:w-10/12" id="skills">
+        <h1 className="font-serif text-6xl font-bold text-center text-white">Contact</h1>
 
-        <div className="flex gap-10 justify-center mt-10">
-          <div className="flex items-center gap-2 bg-skywhite p-3 rounded-lg w-fit">
+        <div className="flex flex-col items-center gap-10 mt-10 xl:justify-center xl:flex-row">
+          <div className="flex items-center w-full gap-2 p-3 rounded-lg xl:w-fit bg-skywhite">
             <Image src={phoneIcon} />
-            <h2 className="text-2xl">(63+)9060268332</h2>
+            <h2 className="text-xl xl:text-2xl">(63+)9060268332</h2>
           </div>
 
-          <div className="flex items-center gap-2 bg-skywhite p-3 rounded-lg w-fit">
+          <div className="flex items-center w-full gap-2 p-3 rounded-lg xl:w-fit bg-skywhite ">
             <Image src={mailIcon} />
-            <h2 className="text-2xl">pautanes.joshua@gmail.com</h2>
+            <h2 className="text-xl xl:text-2xl">pautanes.joshua@gmail.com</h2>
           </div>
         </div>
         <div className="flex justify-center gap-2 mt-10">
