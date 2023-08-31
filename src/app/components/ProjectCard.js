@@ -17,38 +17,26 @@ export default function ProjectCard({ title, desc, image, github, website, techn
         <CardBody className="py-2 overflow-visible">
           <h1 className="mt-2 text-4xl text-center text-white">{title}</h1>
           <p className="mt-2 text-center text-white text-md">{desc}</p>
-          <div className="flex justify-center my-3 gap-2">
-            <Image
-              alt="Card background"
-              className="object-cover"
-              src={technologies[0]}
-              height={60}
-              width={60}
-            />
-            <Image
-              alt="Card background"
-              className="object-cover"
-              src={technologies[1]}
-              height={60}
-              width={60}
-            />
-            <Image
-              alt="Card background"
-              className="object-cover"
-              src={technologies[2]}
-              height={60}
-              width={60}
-            />
+          <div className="flex justify-center gap-2 my-3">
+            {technologies.map((item) => (
+              <Image
+                alt={item.title}
+                className="object-cover"
+                src={item.icon}
+                height={60}
+                width={60}
+              />
+            ))}
           </div>
           <div className="flex justify-center gap-2 mt-3">
             <Link href={github} target="_blank">
-              <div className="bg-white flex justify-center items-center gap-2 py-2 w-fit px-3 border-2 border-transparent rounded-lg hover:bg-gray transition-all duration-200">
+              <div className="flex items-center justify-center gap-2 px-3 py-2 transition-all duration-200 bg-white border-2 border-transparent rounded-lg w-fit hover:bg-gray">
                 <Image src={githubIcon} height={40} width={40} />
                 <p className="text-xl font-medium">GITHUB</p>
               </div>
             </Link>
             <Link href={website} target="_blank">
-              <div className="bg-white flex justify-center items-center gap-2 py-2 w-fit px-3 border-2 border-transparent rounded-lg hover:bg-gray transition-all duration-150">
+              <div className="flex items-center justify-center gap-2 px-3 py-2 transition-all duration-150 bg-white border-2 border-transparent rounded-lg w-fit hover:bg-gray">
                 <Image src={arrowIcon} height={40} width={40} />
                 <p className="text-xl font-medium">VISIT</p>
               </div>

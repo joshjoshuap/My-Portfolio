@@ -12,4 +12,4 @@
 - [NextUI](https://nextui.org/)
 - [Vercel](https://vercel.com/)
 
-[portfolio-image]: public/image/porfolio-image.png
+[portfolio-image]: public/image/porfolio-image.jpg
