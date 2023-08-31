@@ -6,10 +6,10 @@ export default function SkillsCard({ icons, SkillTitle, className }) {
     <div className="mt-12">
       <h1 className={`text-4xl font-mono font-semibold ${className}`}>{SkillTitle}</h1>
       <div className="mt-5 ">
-        <div className="gap-5 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 justify-center">
+        <div className="grid justify-center grid-cols-2 gap-3 md:gap-5 md:grid-cols-3 lg:grid-cols-6">
           {icons.map((item, index) => (
-            <Card shadow="sm" key={index} isPressable className="bg-skywhite rounded-lg">
-              <CardBody className="overflow-visible pt-2 pb-0 px-8">
+            <Card shadow="sm" key={index} isPressable className="rounded-lg bg-skywhite">
+              <CardBody className="px-8 pt-2 pb-0 overflow-visible">
                 <Image
                   shadow="sm"
                   className="mx-auto"
