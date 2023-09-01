@@ -1,3 +1,4 @@
+import Section from '../components/Section';
 import SkillsCard from '../components/SkillsCard';
 import {
   htmlIcon,
@@ -22,108 +23,124 @@ import {
   canvaIcon,
 } from '../assets/icons';
 
-let frontEnd = [
+let skillList = [
   {
-    title: 'HTML',
-    icon: htmlIcon,
+    title: 'Front End',
+    titleColor: 'text-lightorange',
+    skills: [
+      {
+        title: 'HTML',
+        icon: htmlIcon,
+      },
+      {
+        title: 'CSS',
+        icon: cssIcon,
+      },
+      {
+        title: 'SASS',
+        icon: sassIcon,
+      },
+      {
+        title: 'Bootstrap',
+        icon: bootstrapIcon,
+      },
+      {
+        title: 'Tailwind',
+        icon: tailwindIcon,
+      },
+      {
+        title: 'React',
+        icon: reactjsIcon,
+      },
+    ],
   },
   {
-    title: 'CSS',
-    icon: cssIcon,
+    title: 'Back End',
+    titleColor: 'text-lightgreen',
+    skills: [
+      {
+        title: 'Javascript',
+        icon: javascriptIcon,
+      },
+      {
+        title: 'C#',
+        icon: csharpIcon,
+      },
+      {
+        title: 'NodeJS',
+        icon: nodejsIcon,
+      },
+      {
+        title: '.NET',
+        icon: dotnetIcon,
+      },
+      {
+        title: 'MongoDB',
+        icon: mongodbIcon,
+      },
+      {
+        title: 'MySQL',
+        icon: mysqlIcon,
+      },
+    ],
   },
   {
-    title: 'SASS',
-    icon: sassIcon,
+    title: 'Development',
+    titleColor: 'text-lightorange',
+    skills: [
+      {
+        title: 'VSCode',
+        icon: vscodeIcon,
+      },
+      {
+        title: 'Visual Studio',
+        icon: visualstudioIcon,
+      },
+      {
+        title: 'Git',
+        icon: gitIcon,
+      },
+      {
+        title: 'Github',
+        icon: githubIcon,
+      },
+      {
+        title: 'Bash',
+        icon: bashIcon,
+      },
+      {
+        title: 'Ubuntu',
+        icon: ubuntuIcon,
+      },
+    ],
   },
   {
-    title: 'Bootstrap',
-    icon: bootstrapIcon,
-  },
-  {
-    title: 'Tailwind',
-    icon: tailwindIcon,
-  },
-  {
-    title: 'React',
-    icon: reactjsIcon,
-  },
-];
-
-let backEnd = [
-  {
-    title: 'Javascript',
-    icon: javascriptIcon,
-  },
-  {
-    title: 'C#',
-    icon: csharpIcon,
-  },
-  {
-    title: 'NodeJS',
-    icon: nodejsIcon,
-  },
-  {
-    title: '.NET',
-    icon: dotnetIcon,
-  },
-  {
-    title: 'MongoDB',
-    icon: mongodbIcon,
-  },
-  {
-    title: 'MySQL',
-    icon: mysqlIcon,
-  },
-];
-
-let development = [
-  {
-    title: 'VSCode',
-    icon: vscodeIcon,
-  },
-  {
-    title: 'Visual Studio',
-    icon: visualstudioIcon,
-  },
-  {
-    title: 'Git',
-    icon: gitIcon,
-  },
-  {
-    title: 'Github',
-    icon: githubIcon,
-  },
-  {
-    title: 'Bash',
-    icon: bashIcon,
-  },
-  {
-    title: 'Ubuntu',
-    icon: ubuntuIcon,
-  },
-];
-
-let design = [
-  {
-    title: 'Figma',
-    icon: figmaIcon,
-  },
-  {
-    title: 'Canva',
-    icon: canvaIcon,
+    title: 'Design',
+    titleColor: 'text-lightgreen',
+    skills: [
+      {
+        title: 'Figma',
+        icon: figmaIcon,
+      },
+      {
+        title: 'Canva',
+        icon: canvaIcon,
+      },
+    ],
   },
 ];
 
 export default function Skills() {
   return (
-    <div className="bg-blue" id="skills">
-      <div className="w-11/12 py-10 mx-auto xl:w-10/12" id="skills">
-        <h1 className="flex justify-center font-serif text-6xl font-bold text-white">Skills</h1>
-        <SkillsCard SkillTitle="FRONT END" icons={frontEnd} className="text-lightorange" />
-        <SkillsCard SkillTitle="BACK END" icons={backEnd} className="text-lightgreen" />
-        <SkillsCard SkillTitle="DEVELOPMENT" icons={development} className="text-lightorange" />
-        <SkillsCard SkillTitle="DESIGN" icons={design} className="text-lightgreen" />
-      </div>
-    </div>
+    <Section
+      id="skills"
+      sectionTitle="Skills"
+      titleColor="text-white"
+      titleIsCenter="Yes"
+      bgColor="bg-blue">
+      {skillList.map((item) => (
+        <SkillsCard SkillTitle={item.title} icons={item.skills} className={item.titleColor} />
+      ))}
+    </Section>
   );
 }

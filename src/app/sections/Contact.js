@@ -8,39 +8,43 @@ import {
   mailIcon,
   phoneIcon,
 } from '../assets/icons';
+import Section from '../components/Section';
+
+let socialMediaIcon = [
+  { alt: 'Facebook Icon', icon: facebookIcon, link: 'https://www.facebook.com/joshjoshuap1' },
+  { alt: 'Instagram Icon', icon: instagramIcon, link: 'https://www.instagram.com/joshjoshuap1/' },
+  { alt: 'Linkedin Icon', icon: linkedinIcon, link: 'https://www.linkedin.com/in/joshuapautanes/' },
+  { alt: 'Github Icon', icon: githubIcon, link: 'https://github.com/joshjoshuap' },
+];
+
+let ContactCard = ({ icon, desc }) => {
+  return (
+    <div className="flex items-center w-full xl:w-fit gap-2 p-3 rounded-lg bg-skywhite">
+      <Image src={icon} />
+      <h2 className="">{desc}</h2>
+    </div>
+  );
+};
 
 export default function Contact() {
   return (
-    <div className="bg-blue" id="contact">
-      <div className="w-11/12 py-10 mx-auto xl:w-10/12" id="skills">
-        <h1 className="font-serif text-6xl font-bold text-center text-white">Contact</h1>
-
-        <div className="flex flex-col items-center gap-10 mt-10 xl:justify-center xl:flex-row">
-          <div className="flex items-center w-full xl:w-fit gap-2 p-3 rounded-lg bg-skywhite">
-            <Image src={phoneIcon} />
-            <h2 className="">(63+)9060268332</h2>
-          </div>
-
-          <div className="flex items-center w-full xl:w-fit gap-2 p-3 rounded-lg bg-skywhite ">
-            <Image src={mailIcon} />
-            <h2 className="">pautanes.joshua@gmail.com</h2>
-          </div>
-        </div>
-        <div className="flex justify-center gap-2 mt-10">
-          <Link href="https://www.facebook.com/joshjoshuap1" target="_blank">
-            <Image src={facebookIcon} height={80} width={80} />
-          </Link>
-          <Link href="https://www.instagram.com/joshjoshuap1/" target="_blank">
-            <Image src={instagramIcon} height={80} width={80} />
-          </Link>
-          <Link href="https://www.linkedin.com/in/joshuapautanes/" target="_blank">
-            <Image src={linkedinIcon} height={80} width={80} />
-          </Link>
-          <Link href="https://github.com/joshjoshuap" target="_blank">
-            <Image src={githubIcon} height={80} width={80} />
-          </Link>
-        </div>
+    <Section
+      id="contact"
+      sectionTitle="Contact"
+      titleColor="text-white"
+      titleIsCenter="Yes"
+      bgColor="bg-blue">
+      <div className="flex flex-col items-center gap-10 mt-10 xl:justify-center xl:flex-row">
+        <ContactCard icon={phoneIcon} desc="(63+)9060268332" />
+        <ContactCard icon={mailIcon} desc="pautanes.joshua@gmail.com" />
       </div>
-    </div>
+      <div className="flex justify-center gap-2 mt-10">
+        {socialMediaIcon.map((item) => (
+          <Link href={item.link} target="_blank">
+            <Image src={item.icon} alt={item.alt} height={80} width={80} />
+          </Link>
+        ))}
+      </div>
+    </Section>
   );
 }
