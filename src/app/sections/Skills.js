@@ -1,3 +1,4 @@
+import Section from '../components/Section';
 import SkillsCard from '../components/SkillsCard';
 import {
   htmlIcon,
@@ -116,14 +117,16 @@ let design = [
 
 export default function Skills() {
   return (
-    <div className="bg-blue" id="skills">
-      <div className="w-11/12 py-16 mx-auto xl:w-10/12" id="skills">
-        <h1 className="flex justify-center font-serif text-6xl font-bold text-white">Skills</h1>
-        <SkillsCard SkillTitle="FRONT END" icons={frontEnd} className="text-lightorange" />
-        <SkillsCard SkillTitle="BACK END" icons={backEnd} className="text-lightgreen" />
-        <SkillsCard SkillTitle="DEVELOPMENT" icons={development} className="text-lightorange" />
-        <SkillsCard SkillTitle="DESIGN" icons={design} className="text-lightgreen" />
-      </div>
-    </div>
+    <Section
+      id="skills"
+      sectionTitle="Skills"
+      titleColor="text-white"
+      titleIsCenter="Yes"
+      bgColor="bg-blue">
+      <SkillsCard SkillTitle="FRONT END" icons={frontEnd} className="text-lightorange" />
+      <SkillsCard SkillTitle="BACK END" icons={backEnd} className="text-lightgreen" />
+      <SkillsCard SkillTitle="DEVELOPMENT" icons={development} className="text-lightorange" />
+      <SkillsCard SkillTitle="DESIGN" icons={design} className="text-lightgreen" />
+    </Section>
   );
 }

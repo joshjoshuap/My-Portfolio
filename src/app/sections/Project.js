@@ -10,6 +10,7 @@ import {
   htmlIcon,
   cssIcon,
 } from '../assets/icons';
+import Section from '../components/Section';
 
 let projects = [
   {
@@ -54,8 +55,7 @@ let projects = [
 
 export default function Project() {
   return (
-    <div className="w-11/12 py-16 mx-auto xl:w-10/12" id="projects">
-      <h1 className="font-serif text-6xl font-bold text-blue">Projects</h1>
+    <Section id="projects" sectionTitle="Projects" titleColor="text-blue" bgColor="bg-white">
       <div className="flex flex-col gap-10 mt-10 xl:flex-row">
         {projects.map((item) => (
           <ProjectCard
@@ -68,6 +68,6 @@ export default function Project() {
           />
         ))}
       </div>
-    </div>
+    </Section>
   );
 }

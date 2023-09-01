@@ -1,9 +1,8 @@
+import Section from '../components/Section';
+
 export default function About() {
   return (
-    <div className="w-11/12 py-16 mx-auto text-black xl:w-10/12" id="about">
-      <h1 className="mb-5 font-serif text-6xl font-bold text-center md:text-left text-blue font">
-        About
-      </h1>
+    <Section id="about" sectionTitle="About" titleColor="text-blue" bgColor="bg-white">
       <p className="mb-5 text-justify text-md lg:text-xl indent-3 lg:indent-10">
         I graduated with Bachelor's Degree in Information Technology at Quezon City University and
         Senior High in ICT strand at STI College Novaliches. Studied programming, web development,
@@ -22,6 +21,6 @@ export default function About() {
         development I use NodeJS, ExpressJS, RestAPI, and MongoDB. Also familiar with other
         programming language such as PHP and C#.
       </p>
-    </div>
+    </Section>
   );
 }
