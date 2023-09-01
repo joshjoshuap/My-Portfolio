@@ -39,7 +39,7 @@ let designPicture = [
 
 export default function Design() {
   return (
-    <div className="w-11/12 py-10 mx-auto xl:w-10/12" id="project">
+    <div className="w-11/12 py-16 mx-auto xl:w-10/12" id="project">
       <h1 className="font-serif text-6xl font-bold text-blue">Design</h1>
 
       <div className="grid justify-center grid-cols-2 gap-3 mt-5 md:grid-cols-3 xl:grid-cols-4">

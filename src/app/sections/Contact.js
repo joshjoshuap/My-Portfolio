@@ -12,7 +12,7 @@ import {
 export default function Contact() {
   return (
     <div className="bg-blue" id="contact">
-      <div className="w-11/12 py-10 mx-auto xl:w-10/12" id="skills">
+      <div className="w-11/12 py-10 mx-auto xl:w-10/12">
         <h1 className="font-serif text-6xl font-bold text-center text-white">Contact</h1>
 
         <div className="flex flex-col items-center gap-10 mt-10 xl:justify-center xl:flex-row">

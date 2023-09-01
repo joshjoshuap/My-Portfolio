@@ -117,7 +117,7 @@ let design = [
 export default function Skills() {
   return (
     <div className="bg-blue" id="skills">
-      <div className="w-11/12 py-10 mx-auto xl:w-10/12" id="skills">
+      <div className="w-11/12 py-16 mx-auto xl:w-10/12" id="skills">
         <h1 className="flex justify-center font-serif text-6xl font-bold text-white">Skills</h1>
         <SkillsCard SkillTitle="FRONT END" icons={frontEnd} className="text-lightorange" />
         <SkillsCard SkillTitle="BACK END" icons={backEnd} className="text-lightgreen" />

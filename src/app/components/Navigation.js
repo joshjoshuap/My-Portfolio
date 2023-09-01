@@ -19,7 +19,7 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="pt-4 bg-blue">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="pt-2 bg-blue">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
