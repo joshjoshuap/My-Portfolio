@@ -1,3 +1,4 @@
+'use client';
 import Navigation from './components/Navigation';
 import About from './sections/About';
 import Contact from './sections/Contact';
@@ -12,8 +13,8 @@ export default function Home() {
     <>
       <Navigation />
       <Header />
-      <About id="about" />
-      <Skills id="skills" />
+      <About />
+      <Skills />
       <Project />
       <Design />
       <Contact />
