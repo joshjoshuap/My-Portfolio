@@ -11,9 +11,17 @@ import {
   NavbarMenuItem,
 } from '@nextui-org/navbar';
 import { Link } from '@nextui-org/link';
-import { Button, ButtonGroup } from '@nextui-org/button';
+import { Button } from '@nextui-org/button';
 import hackerLogo from '/public/image/hacker.png';
 import Image from 'next/image';
+
+let navigationList = [
+  { link: '#home', title: 'Home' },
+  { link: '#about', title: 'About' },
+  { link: '#skills', title: 'Skills' },
+  { link: '#projects', title: 'Projects' },
+  { link: '#contact', title: 'Contact' },
+];
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -27,36 +35,17 @@ export default function Navigation() {
         />
         <NavbarBrand>
           <Image src={hackerLogo} height={60} width={60} />
-          {/* <h3 className="text-white">Joshua Pautanes</h3> */}
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden gap-10 sm:flex" justify="center">
-        <NavbarItem>
-          <Link className="text-xl text-white" href="#home">
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-xl text-white" href="#about" aria-current="page">
-            About
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-xl text-white" href="#skills">
-            Skills
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-xl text-white" href="#projects">
-            Projects
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-xl text-white" href="#contact">
-            Contact
-          </Link>
-        </NavbarItem>
+      <NavbarContent className="hidden gap-10 sm:flex">
+        {navigationList.map((item) => (
+          <NavbarItem>
+            <Link className="text-xl text-white" href={item.link}>
+              {item.title}
+            </Link>
+          </NavbarItem>
+        ))}
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="flex">
@@ -71,21 +60,11 @@ export default function Navigation() {
       </NavbarContent>
       <NavbarMenu className="pt-10 bg-blue">
         <NavbarMenuItem className="flex flex-col items-center gap-5">
-          <Link className="text-2xl text-white " href="#home">
-            Home
-          </Link>
-          <Link className="text-2xl text-white " href="#about">
-            About
-          </Link>
-          <Link className="text-2xl text-white " href="#skills">
-            Skills
-          </Link>
-          <Link className="text-2xl text-white " href="#projects">
-            Projects
-          </Link>
-          <Link className="text-2xl text-white " href="#contact">
-            Contact
-          </Link>
+          {navigationList.map((item) => (
+            <Link className="text-xl text-white" href={item.link}>
+              {item.title}
+            </Link>
+          ))}
         </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
