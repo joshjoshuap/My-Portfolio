@@ -1,14 +1,12 @@
 import ProjectCard from '../components/ProjectCard';
 import { webdevresourcesImage, insightmarketImage, postpostImage } from '../assets/image';
 import {
-  sassIcon,
   reactjsIcon,
   nextjsIcon,
   tailwindIcon,
   nodejsIcon,
   mongodbIcon,
-  htmlIcon,
-  cssIcon,
+  viteIcon,
 } from '../assets/icons';
 import Section from '../components/Section';
 
@@ -20,9 +18,8 @@ let projects = [
     github: 'https://github.com/joshjoshuap/webdev-resources',
     website: 'https://joshjoshuap-webdevresources.vercel.app/',
     technologies: [
-      { title: 'HTML Icon', icon: htmlIcon },
-      { title: 'CSS Icon', icon: cssIcon },
-      { title: 'SASS Icon', icon: sassIcon },
+      { title: 'Tailwind Icon', icon: tailwindIcon },
+      { title: 'Vite Icon', icon: viteIcon },
       { title: 'React Icon', icon: reactjsIcon },
     ],
   },
