@@ -28,6 +28,7 @@ import typescriptIcon from '/public/icons/twitter-icon.svg';
 import ubuntuIcon from '/public/icons/ubuntu-icon.svg';
 import visualstudioIcon from '/public/icons/visualstudio-icon.svg';
 import vscodeIcon from '/public/icons/vscode-icon.svg';
+import viteIcon from '/public/icons/vite-icon.svg';
 
 export {
   arrowIcon,
@@ -59,4 +60,5 @@ export {
   ubuntuIcon,
   visualstudioIcon,
   vscodeIcon,
+  viteIcon,
 };

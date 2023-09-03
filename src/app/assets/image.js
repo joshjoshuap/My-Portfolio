@@ -17,7 +17,7 @@ import design16 from '/public/image/design-16.jpg';
 
 import hackerImage from '/public/image/hacker.png';
 import headerImage from '/public/image/header-image.png';
-import webdevresourcesImage from '/public/image/webdeveresources-image.jpg';
+import webdevresourcesImage from '/public/image/webdevresources-image.png';
 import insightmarketImage from '/public/image/insighmarket-image.jpg';
 import postpostImage from '/public/image/postpost-image.jpg';
 
