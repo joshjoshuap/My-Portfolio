@@ -30,9 +30,9 @@ let projects = [
     github: 'https://github.com/joshjoshuap/insight-market-api',
     website: 'https://joshjoshuap-insightmarketapi.vercel.app/',
     technologies: [
-      { title: 'Taiwlind Icon', icon: tailwindIcon },
-      { title: 'ReactJS Icon', icon: reactjsIcon },
-      { title: 'NextJS Icon', icon: nextjsIcon },
+      { title: 'Tailwind Icon', icon: tailwindIcon },
+      { title: 'Vite Icon', icon: viteIcon },
+      { title: 'React Icon', icon: reactjsIcon },
     ],
   },
   {
