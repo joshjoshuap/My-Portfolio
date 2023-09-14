@@ -40,7 +40,7 @@ let projects = [
     desc: 'A simple posting site where you can share your idea',
     image: postpostImage,
     github: 'https://github.com/joshjoshuap/post-post',
-    website: 'https://post-post.onrender.com/',
+    website: 'https://post-post.vercel.app/',
     technologies: [
       { title: 'Taiwlind Icon', icon: tailwindIcon },
       { title: 'ReactJS Icon', icon: reactjsIcon },
