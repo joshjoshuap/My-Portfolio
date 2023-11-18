@@ -52,7 +52,7 @@ let projects = [
 
 export default function Project() {
   return (
-    <Section id="projects" sectionTitle="Projects" titleColor="text-blue" bgColor="bg-white">
+    <Section id="projects" sectionTitle="Projects" titleColor="text-lightblue" bgColor="bg-white">
       <div className="flex flex-col gap-10 mt-10 xl:flex-row">
         {projects.map((item) => (
           <ProjectCard

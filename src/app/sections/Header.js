@@ -16,15 +16,15 @@ let socialMediaIcon = [
 
 export default function Header() {
   return (
-    <header className="pt-8 pb-6 font-mono xl:pb-10 lg:pt-10 xl:pt-16 bg-blue">
+    <header className="pt-8 pb-6 font-mono bg-black xl:pb-10 lg:pt-10 xl:pt-16">
       <div className="w-11/12 mx-auto text-white md:grid md:grid-cols-2 xl:w-10/12 ">
         <div className="text-center md:text-left">
-          <h3 className="pb-2 text-xl text-center md:text-left lg:text-2xl xl:text-4xl text-lightorange">
+          <h3 className="pb-2 text-xl text-center md:text-left lg:text-2xl xl:text-4xl text-lightgreen">
             Hello There!
           </h3>
           <div className="py-3 ">
             <span className="pr-2 text-2xl lg:text-2xl xl:text-4xl">I'M</span>
-            <span className="text-6xl xl:text-8xl 2xl:9xl text-lightgreen">Joshua,</span>
+            <span className="text-6xl xl:text-8xl 2xl:9xl text-lightblue">Joshua,</span>
           </div>
           <h3 className="text-xl md:w-10/12 xl:w-10/12 lg:text-xl xl:text-3xl">
             Aspiring Web/Mobile Developer and Graphic Designer
@@ -38,7 +38,7 @@ export default function Header() {
             ))}
           </div>
           <Link href="#about">
-            <Button className="px-8 py-6 mt-6 text-2xl text-white rounded-md xl:mt-10 bg-lightgreen">
+            <Button className="px-8 py-6 mt-6 text-2xl text-white rounded-md xl:mt-10 bg-lightblue">
               Let's Start
             </Button>
           </Link>
