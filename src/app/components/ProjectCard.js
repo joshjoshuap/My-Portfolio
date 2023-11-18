@@ -25,7 +25,9 @@ export default function ProjectCard({ title, desc, image, github, website, techn
         />
       </CardHeader>
       <CardBody className="py-2 overflow-visible">
-        <h1 className="mt-2 text-2xl text-center text-white 2xl:text-4xl">{title}</h1>
+        <h1 className="mt-2 text-2xl font-semibold text-center text-lightblue 2xl:text-4xl">
+          {title}
+        </h1>
         <p className="mt-2 text-center text-white text-md">{desc}</p>
         <div className="flex justify-center gap-2 my-3">
           {technologies.map((item) => (

@@ -11,13 +11,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        black: '#040D12',
+        black: '#0c0f0a',
         gray: '#D8D9DA',
         white: '#F5F5F5',
         skywhite: '#EFF5F5',
         darkblue: '#27374D',
-        blue: '#116A7B',
-        lightblue: '#3A98B9',
+        blue: '#001524',
+        lightblue: '#39A7FF',
         darkorange: '#F97B22',
         orange: '#F29727',
         lightorange: '#FFB84C',

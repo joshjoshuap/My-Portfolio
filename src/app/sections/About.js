@@ -6,7 +6,7 @@ let Paragraph = ({ children }) => {
 
 export default function About() {
   return (
-    <Section id="about" sectionTitle="About" titleColor="text-blue" bgColor="bg-white">
+    <Section id="about" sectionTitle="About" titleColor="text-lightblue" bgColor="bg-white">
       <Paragraph>
         I graduated with Bachelor's Degree in Information Technology at Quezon City University and
         Senior High in ICT strand at STI College Novaliches. Studied programming, web development,

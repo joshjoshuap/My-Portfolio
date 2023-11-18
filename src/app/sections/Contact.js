@@ -19,7 +19,7 @@ let socialMediaIcon = [
 
 let ContactCard = ({ icon, desc }) => {
   return (
-    <div className="flex items-center w-full xl:w-fit gap-2 p-3 rounded-lg bg-skywhite">
+    <div className="flex items-center w-full gap-2 p-3 rounded-lg xl:w-fit bg-skywhite">
       <Image src={icon} />
       <h2 className="">{desc}</h2>
     </div>
@@ -33,7 +33,7 @@ export default function Contact() {
       sectionTitle="Contact"
       titleColor="text-white"
       titleIsCenter="Yes"
-      bgColor="bg-blue">
+      bgColor="bg-black">
       <div className="flex flex-col items-center gap-10 mt-10 xl:justify-center xl:flex-row">
         <ContactCard icon={phoneIcon} desc="(63+)9060268332" />
         <ContactCard icon={mailIcon} desc="pautanes.joshua@gmail.com" />

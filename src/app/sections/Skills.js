@@ -26,7 +26,7 @@ import {
 let skillList = [
   {
     title: 'Front End',
-    titleColor: 'text-lightorange',
+    titleColor: 'text-lightgreen',
     skills: [
       {
         title: 'HTML',
@@ -56,7 +56,7 @@ let skillList = [
   },
   {
     title: 'Back End',
-    titleColor: 'text-lightgreen',
+    titleColor: 'text-lightblue',
     skills: [
       {
         title: 'Javascript',
@@ -86,7 +86,7 @@ let skillList = [
   },
   {
     title: 'Development',
-    titleColor: 'text-lightorange',
+    titleColor: 'text-lightgreen',
     skills: [
       {
         title: 'VSCode',
@@ -116,7 +116,7 @@ let skillList = [
   },
   {
     title: 'Design',
-    titleColor: 'text-lightgreen',
+    titleColor: 'text-lightblue',
     skills: [
       {
         title: 'Figma',
@@ -137,7 +137,7 @@ export default function Skills() {
       sectionTitle="Skills"
       titleColor="text-white"
       titleIsCenter="Yes"
-      bgColor="bg-blue">
+      bgColor="bg-black">
       {skillList.map((item) => (
         <SkillsCard SkillTitle={item.title} icons={item.skills} className={item.titleColor} />
       ))}

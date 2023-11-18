@@ -40,7 +40,7 @@ let designPicture = [
 
 export default function Design() {
   return (
-    <Section sectionTitle="Designs" titleColor="text-blue" bgColor="bg-white">
+    <Section sectionTitle="Designs" titleColor="text-lightblue" bgColor="bg-white">
       <div className="grid justify-center grid-cols-2 gap-3 mt-5 md:grid-cols-3 xl:grid-cols-4">
         {designPicture.map((item) => (
           <Image

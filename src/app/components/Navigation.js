@@ -25,7 +25,7 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="pt-2 bg-blue">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="pt-2 bg-black">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
@@ -50,7 +50,7 @@ export default function Navigation() {
           <Link
             href="https://mega.nz/file/4OphRTqL#ctmj5gdwPRaXISIY812lEsXgNq76UIujH3wrx7P2jHk"
             target="_blank">
-            <Button className="text-xl text-white rounded-sm bg-lightgreen" href="#">
+            <Button className="text-xl text-white rounded-sm bg-lightblue" href="#">
               My Resume
             </Button>
           </Link>
