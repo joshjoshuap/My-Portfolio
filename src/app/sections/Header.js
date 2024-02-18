@@ -27,7 +27,7 @@ export default function Header() {
             <span className="text-6xl xl:text-8xl 2xl:9xl text-lightblue">Joshua,</span>
           </div>
           <h3 className="text-xl md:w-10/12 xl:w-10/12 lg:text-xl xl:text-3xl">
-            Aspiring Web/Mobile Developer and Graphic Designer
+            Aspiring to be in Cybersecurity and DevOps
           </h3>
 
           <div className="flex justify-center gap-2 mt-4 md:justify-start lg:mt-6 xl:mt-10">
