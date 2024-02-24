@@ -25,7 +25,9 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="pt-2 bg-black">
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      className="pt-2 bg-gradient-to-r from-slate-950 via-cyan-900 to-sky-900">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
@@ -39,7 +41,9 @@ export default function Navigation() {
       <NavbarContent className="hidden gap-10 sm:flex">
         {navigationList.map((item) => (
           <NavbarItem>
-            <Link className="text-xl text-white" href={item.link}>
+            <Link
+              className="text-xl text-white duration-500 border-b-2 border-transparent hover:text-lightblue hover:border-lightblue"
+              href={item.link}>
               {item.title}
             </Link>
           </NavbarItem>
@@ -50,7 +54,9 @@ export default function Navigation() {
           <Link
             href="https://mega.nz/file/4OphRTqL#ctmj5gdwPRaXISIY812lEsXgNq76UIujH3wrx7P2jHk"
             target="_blank">
-            <Button className="text-xl text-white rounded-sm bg-lightblue" href="#">
+            <Button
+              className="text-xl text-white border-2 border-transparent rounded-sm bg-lightblue hover:border-white"
+              href="#">
               My Resume
             </Button>
           </Link>
