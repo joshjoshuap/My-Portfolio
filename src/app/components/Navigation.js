@@ -25,7 +25,9 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="pt-2 bg-black">
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      className="pt-2 bg-gradient-to-r from-slate-950 via-cyan-900 to-sky-900">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
