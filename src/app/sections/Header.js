@@ -17,7 +17,7 @@ let socialMediaIcon = [
 
 export default function Header() {
   return (
-    <header className="pt-8 pb-6 font-mono bg-gradient-to-r from-slate-950 via-cyan-900 to-sky-900 xl:pb-10 lg:pt-10 xl:pt-16">
+    <header className="pt-8 pb-6 font-mono bg-gradient-to-r from-slate-900 via-cyan-900 to-sky-900 xl:pb-10 lg:pt-10 xl:pt-16">
       <div className="w-11/12 mx-auto text-white md:grid md:grid-cols-2 xl:w-10/12 ">
         <div className="text-center bg-auto md:text-left">
           <h3 className="pb-2 text-xl text-center md:text-left lg:text-2xl xl:text-4xl text-lightgreen">
