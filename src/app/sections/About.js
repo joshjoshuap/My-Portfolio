@@ -1,8 +1,11 @@
 import Section from '../components/Section';
 import jobExperienceList from '../assets/job-list';
+import myStory from '../assets/mystory';
 
-let Paragraph = ({ children }) => {
-  return <p className="mb-2 text-justify text-md lg:text-lg indent-3 lg:indent-10">{children}</p>;
+let Paragraph = ({ description }) => {
+  return (
+    <p className="mb-2 text-justify text-md lg:text-lg indent-3 lg:indent-10">{description}</p>
+  );
 };
 
 let JobContainer = ({ positionTitle, companyDesc, jobDesc }) => {
@@ -30,27 +33,9 @@ export default function About() {
           <h1 className="mb-5 text-4xl font-medium text-center lg:mb-10 lg:text-6xl text-emerald-700">
             MY STORY
           </h1>
-          <Paragraph>
-            I graduated with Bachelor's Degree in Information Technology at Quezon City University
-            and Senior High in ICT strand at STI College Novaliches. Studied programming, web
-            development, and software. Have skills and knowledge in web development, web design, and
-            database management
-          </Paragraph>
-
-          <Paragraph>
-            I love computer and I am passionate about it. In my spare I teach myself and learn as
-            much about computer, programming, Cybersecurity, cloud even the AI.
-          </Paragraph>
-
-          <Paragraph>
-            In programming I usually use ReactJS, NextJS, Bootstrap, and TailwindCSS for the
-            FrontEnd. While in Back-End development I use NodeJS.
-          </Paragraph>
-
-          <Paragraph>
-            Currently I am working as an IT Support in an IT Software Company. Mostly I do is to
-            give technical assistance to employee and maintain the Infrasctucture of the company
-          </Paragraph>
+          {myStory.map((item) => (
+            <Paragraph description={item.storyParagraph} />
+          ))}
         </div>
 
         {/* JOB EXPERIENCE */}
