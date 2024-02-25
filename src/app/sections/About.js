@@ -31,7 +31,7 @@ export default function About() {
 
           <Paragraph>
             Currently I am working as an IT Support in an IT Software Company. Mostly I do is to
-            give technical assistance eto employee and maintain the Infrasctucture of the company
+            give technical assistance to employee and maintain the Infrasctucture of the company
           </Paragraph>
         </div>
         <div className="lg:w-1/2">
@@ -62,8 +62,10 @@ export default function About() {
                   Install and configure Server’s VM using KVM and VMware in different operating
                   system such as Windows and Linux
                 </li>
-                Train and guide employees on using computer hardware, software programs and user
-                accounts
+                <li>
+                  Train and guide employees on using computer hardware, software programs and user
+                  accounts
+                </li>
               </ul>
             </div>
           </div>

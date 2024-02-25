@@ -137,7 +137,7 @@ export default function Skills() {
       sectionTitle="Skills"
       titleColor="text-white"
       titleIsCenter="Yes"
-      bgColor="bg-gradient-to-r from-slate-950 via-cyan-900 to-sky-900">
+      bgColor="bg-gradient-to-r from-slate-900 via-cyan-900 to-sky-900">
       {skillList.map((item) => (
         <SkillsCard SkillTitle={item.title} icons={item.skills} className={item.titleColor} />
       ))}

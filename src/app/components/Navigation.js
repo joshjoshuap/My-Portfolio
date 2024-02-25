@@ -27,7 +27,7 @@ export default function Navigation() {
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
-      className="pt-2 bg-gradient-to-r from-slate-950 via-cyan-900 to-sky-900">
+      className="pt-2 bg-gradient-to-r from-slate-900 via-cyan-900 to-sky-900">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
