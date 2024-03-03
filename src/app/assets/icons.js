@@ -29,6 +29,12 @@ import ubuntuIcon from '/public/icons/ubuntu-icon.svg';
 import visualstudioIcon from '/public/icons/visualstudio-icon.svg';
 import vscodeIcon from '/public/icons/vscode-icon.svg';
 import viteIcon from '/public/icons/vite-icon.svg';
+import centosIcon from '/public/icons/centos-icon.svg';
+import fedoraIcon from '/public/icons/fedora-icon.svg';
+import kalilinuxIcon from '/public/icons/kalilinux-icon.svg';
+import windowsIcon from '/public/icons/windows-icon.svg';
+import windowsserverIcon from '/public/icons/windowsserver-icon.svg';
+import vercelIcon from '/public/icons/vercel-icon.svg';
 
 export {
   arrowIcon,
@@ -61,4 +67,10 @@ export {
   visualstudioIcon,
   vscodeIcon,
   viteIcon,
+  centosIcon,
+  fedoraIcon,
+  kalilinuxIcon,
+  windowsIcon,
+  vercelIcon,
+  windowsserverIcon,
 };

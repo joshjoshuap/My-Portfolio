@@ -8,9 +8,7 @@ import {
   tailwindIcon,
   reactjsIcon,
   javascriptIcon,
-  csharpIcon,
   nodejsIcon,
-  dotnetIcon,
   mongodbIcon,
   mysqlIcon,
   vscodeIcon,
@@ -21,114 +19,12 @@ import {
   ubuntuIcon,
   figmaIcon,
   canvaIcon,
+  centosIcon,
+  fedoraIcon,
+  kalilinuxIcon,
+  windowsIcon,
+  vercelIcon,
 } from '../assets/icons';
-
-let skillList = [
-  {
-    title: 'Front End',
-    titleColor: 'text-lightgreen',
-    skills: [
-      {
-        title: 'HTML',
-        icon: htmlIcon,
-      },
-      {
-        title: 'CSS',
-        icon: cssIcon,
-      },
-      {
-        title: 'SASS',
-        icon: sassIcon,
-      },
-      {
-        title: 'Bootstrap',
-        icon: bootstrapIcon,
-      },
-      {
-        title: 'Tailwind',
-        icon: tailwindIcon,
-      },
-      {
-        title: 'React',
-        icon: reactjsIcon,
-      },
-    ],
-  },
-  {
-    title: 'Back End',
-    titleColor: 'text-lightblue',
-    skills: [
-      {
-        title: 'Javascript',
-        icon: javascriptIcon,
-      },
-      {
-        title: 'C#',
-        icon: csharpIcon,
-      },
-      {
-        title: 'NodeJS',
-        icon: nodejsIcon,
-      },
-      {
-        title: '.NET',
-        icon: dotnetIcon,
-      },
-      {
-        title: 'MongoDB',
-        icon: mongodbIcon,
-      },
-      {
-        title: 'MySQL',
-        icon: mysqlIcon,
-      },
-    ],
-  },
-  {
-    title: 'Development',
-    titleColor: 'text-lightgreen',
-    skills: [
-      {
-        title: 'VSCode',
-        icon: vscodeIcon,
-      },
-      {
-        title: 'Visual Studio',
-        icon: visualstudioIcon,
-      },
-      {
-        title: 'Git',
-        icon: gitIcon,
-      },
-      {
-        title: 'Github',
-        icon: githubIcon,
-      },
-      {
-        title: 'Bash',
-        icon: bashIcon,
-      },
-      {
-        title: 'Ubuntu',
-        icon: ubuntuIcon,
-      },
-    ],
-  },
-  {
-    title: 'Design',
-    titleColor: 'text-lightblue',
-    skills: [
-      {
-        title: 'Figma',
-        icon: figmaIcon,
-      },
-      {
-        title: 'Canva',
-        icon: canvaIcon,
-      },
-    ],
-  },
-];
 
 export default function Skills() {
   return (
@@ -174,7 +70,11 @@ export default function Skills() {
             SYSTEM ADMINISTRATION
           </h1>
           <div className="grid grid-cols-5 mt-5">
+            <Image shadow="sm" className="" height={100} width={100} src={windowsIcon} />
             <Image shadow="sm" className="" height={100} width={100} src={ubuntuIcon} />
+            <Image shadow="sm" className="" height={100} width={100} src={centosIcon} />
+            <Image shadow="sm" className="" height={100} width={100} src={fedoraIcon} />
+            <Image shadow="sm" className="" height={100} width={100} src={kalilinuxIcon} />
           </div>
         </div>
         <div className="p-5 bg-white border-4 border-white rounded-sm">
@@ -182,6 +82,9 @@ export default function Skills() {
           <div className="grid grid-cols-5 mt-5">
             <Image shadow="sm" className="" height={100} width={100} src={vscodeIcon} />
             <Image shadow="sm" className="" height={100} width={100} src={visualstudioIcon} />
+            <Image shadow="sm" className="" height={100} width={100} src={figmaIcon} />
+            <Image shadow="sm" className="" height={100} width={100} src={canvaIcon} />
+            <Image shadow="sm" className="" height={100} width={100} src={vercelIcon} />
           </div>
         </div>
       </div>
