@@ -2,7 +2,7 @@
 
 # Joshua Pautanes Website Portfolio
 
-## Link - [joshjoshuap.site](https://www.joshjoshuap.site)
+## Link - [joshuap.site](https://www.joshuap.site)
 
 ## Technologies
 
@@ -12,4 +12,4 @@
 - [NextUI](https://nextui.org/)
 - [Vercel](https://vercel.com/)
 
-[portfolio-image]: public/image/porfolio-image.jpg
+[portfolio-image]: public/image/porfolio-image.png
