@@ -34,10 +34,12 @@ export default function Skills() {
       titleColor="text-white"
       titleIsCenter="Yes"
       bgColor="bg-gradient-to-r from-slate-900 via-cyan-900 to-sky-900">
-      <div className="grid grid-cols-2 gap-10 mt-20">
+      <div className="grid grid-cols-1 gap-10 mt-20 lg:grid-cols-2">
         <div className="p-5 bg-white border-4 border-white rounded-sm">
-          <h1 className="text-4xl font-semibold text-center text-teal-800">DEVELOPMENT</h1>
-          <div className="grid grid-cols-5 mt-5">
+          <h1 className="text-3xl font-semibold text-center text-teal-800 lg:text-4xl">
+            DEVELOPMENT
+          </h1>
+          <div className="grid grid-cols-4 gap-2 mt-5 md:grid-cols-5 md:gap-1">
             <Image
               shadow="sm"
               className=""
@@ -58,18 +60,20 @@ export default function Skills() {
           </div>
         </div>
         <div className="p-5 bg-white border-4 border-white rounded-sm">
-          <h1 className="text-4xl font-semibold text-center text-teal-800">PROGRAMMING</h1>
-          <div className="grid grid-cols-5 mt-5">
+          <h1 className="text-3xl font-semibold text-center text-teal-800 lg:text-4xl">
+            PROGRAMMING
+          </h1>
+          <div className="grid grid-cols-4 gap-2 mt-5 md:grid-cols-5 md:gap-1">
             <Image shadow="sm" className="" height={100} width={100} src={javascriptIcon} />
             <Image shadow="sm" className="" height={100} width={100} src={mysqlIcon} />
             <Image shadow="sm" className="" height={100} width={100} src={bashIcon} />
           </div>
         </div>
         <div className="p-5 bg-white border-4 border-white rounded-sm">
-          <h1 className="text-4xl font-semibold text-center text-teal-800">
+          <h1 className="text-3xl font-semibold text-center text-teal-800 lg:text-4xl">
             SYSTEM ADMINISTRATION
           </h1>
-          <div className="grid grid-cols-5 mt-5">
+          <div className="grid grid-cols-4 gap-2 mt-5 md:grid-cols-5 md:gap-1">
             <Image shadow="sm" className="" height={100} width={100} src={windowsIcon} />
             <Image shadow="sm" className="" height={100} width={100} src={ubuntuIcon} />
             <Image shadow="sm" className="" height={100} width={100} src={centosIcon} />
@@ -78,8 +82,10 @@ export default function Skills() {
           </div>
         </div>
         <div className="p-5 bg-white border-4 border-white rounded-sm">
-          <h1 className="text-4xl font-semibold text-center text-teal-800">SOFTWARE - TOOLS</h1>
-          <div className="grid grid-cols-5 mt-5">
+          <h1 className="text-3xl font-semibold text-center text-teal-800 lg:text-4xl">
+            SOFTWARE - TOOLS
+          </h1>
+          <div className="grid grid-cols-4 gap-2 mt-5 md:grid-cols-5 md:gap-1">
             <Image shadow="sm" className="" height={100} width={100} src={vscodeIcon} />
             <Image shadow="sm" className="" height={100} width={100} src={visualstudioIcon} />
             <Image shadow="sm" className="" height={100} width={100} src={figmaIcon} />
