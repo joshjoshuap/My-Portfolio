@@ -35,6 +35,7 @@ import kalilinuxIcon from '/public/icons/kalilinux-icon.svg';
 import windowsIcon from '/public/icons/windows-icon.svg';
 import windowsserverIcon from '/public/icons/windowsserver-icon.svg';
 import vercelIcon from '/public/icons/vercel-icon.svg';
+import pythonIcon from '/public/icons/python-icon.svg';
 
 export {
   arrowIcon,
@@ -73,4 +74,5 @@ export {
   windowsIcon,
   vercelIcon,
   windowsserverIcon,
+  pythonIcon,
 };

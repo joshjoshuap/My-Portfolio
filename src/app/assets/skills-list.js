@@ -22,6 +22,7 @@ import {
   kalilinuxIcon,
   windowsIcon,
   vercelIcon,
+  pythonIcon,
 } from '../assets/icons';
 
 let SkillsList = [
@@ -68,7 +69,12 @@ let SkillsList = [
   },
   {
     title: 'PROGRAMMING',
-    skillIcons: [{ icon: javascriptIcon }, { icon: mysqlIcon }, { icon: bashIcon }],
+    skillIcons: [
+      { icon: javascriptIcon },
+      { icon: pythonIcon },
+      { icon: bashIcon },
+      { icon: mysqlIcon },
+    ],
   },
   {
     title: 'SYSTEM ADMNISTRATION',
