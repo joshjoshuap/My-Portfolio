@@ -34,13 +34,13 @@ export default function Navigation() {
           className="text-white sm:hidden"
         />
         <NavbarBrand>
-          <Image src={hackerLogo} height={60} width={60} />
+          <Image src={hackerLogo} alt="" height={60} width={60} />
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden gap-10 sm:flex">
         {navigationList.map((item) => (
-          <NavbarItem>
+          <NavbarItem key={item.id} alt="">
             <Link
               className="text-xl text-white duration-500 border-b-2 border-transparent hover:text-lightblue hover:border-lightblue"
               href={item.link}>
@@ -65,7 +65,7 @@ export default function Navigation() {
       <NavbarMenu className="pt-10 bg-blue">
         <NavbarMenuItem className="flex flex-col items-center gap-5">
           {navigationList.map((item) => (
-            <Link className="text-xl text-white" href={item.link}>
+            <Link className="text-xl text-white" href={item.link} key={item.id} alt="">
               {item.title}
             </Link>
           ))}

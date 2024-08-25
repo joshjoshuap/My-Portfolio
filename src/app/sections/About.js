@@ -16,7 +16,7 @@ let JobContainer = ({ positionTitle, companyDesc, jobDesc }) => {
       <div className="w-10/12 mx-auto mt-3">
         <ul className="text-sm list-disc">
           {jobDesc.map((item) => {
-            return <li>{item.jobDescItem}</li>;
+            return <li key={item.id}>{item.jobDescItem}</li>;
           })}
         </ul>
       </div>
@@ -34,7 +34,7 @@ export default function About() {
             MY STORY
           </h1>
           {myStory.map((item) => (
-            <Paragraph description={item.storyParagraph} />
+            <Paragraph key={item.id} description={item.storyParagraph} />
           ))}
         </div>
 
@@ -45,6 +45,7 @@ export default function About() {
           </h1>
           {jobExperienceList.map((item) => (
             <JobContainer
+              key={item.id}
               positionTitle={item.positionTitle}
               companyDesc={item.companyDesc}
               jobDesc={item.jobDesc}

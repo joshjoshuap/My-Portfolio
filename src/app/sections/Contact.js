@@ -20,7 +20,7 @@ let socialMediaIcon = [
 let ContactCard = ({ icon, desc }) => {
   return (
     <div className="flex items-center w-full gap-2 p-3 rounded-lg xl:w-fit bg-skywhite">
-      <Image src={icon} />
+      <Image src={icon} alt="" />
       <h2 className="">{desc}</h2>
     </div>
   );

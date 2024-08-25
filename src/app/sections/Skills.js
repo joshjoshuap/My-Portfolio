@@ -25,7 +25,7 @@ export default function Skills() {
                   width={100}
                   src={item.icon}
                   key={item.id}
-                  alt={item.id}
+                  alt=""
                 />
               ))}
             </div>

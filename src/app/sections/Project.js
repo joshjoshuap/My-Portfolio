@@ -56,6 +56,8 @@ export default function Project() {
       <div className="flex flex-col gap-10 mt-10 xl:flex-row">
         {projects.map((item) => (
           <ProjectCard
+            key={item.id}
+            alt=""
             title={item.title}
             desc={item.desc}
             image={item.image}
