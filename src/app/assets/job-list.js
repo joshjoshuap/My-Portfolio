@@ -5,23 +5,23 @@ let jobExperienceList = [
     jobDesc: [
       {
         jobDescItem:
-          'Provide assistance to employees tickets and technical concern as well as helping the company technical problems',
+          'Build and deploy employee computers and server using mini desktops, atx desktop and intel nuc hardware',
       },
       {
         jobDescItem:
-          'Assisting the System Administrator in monitoring and maintaining the system and IT infrastructure',
+          'Handle on-boarding common tools for new employee by train them how to use devices and setup accounts',
       },
       {
         jobDescItem:
-          'Build and troubleshoot desktop workstation, computer peripherals, networks and servers',
+          'Using microsoft 365 to handle employee work email, mail groups and teams access',
       },
       {
         jobDescItem:
-          'Install and configure Server’s VM using KVM and VMware in different operating system such as Windows and Linux',
+          'Setup local server and virtualization using different OS such as QEMU KVM and VMWare',
       },
       {
         jobDescItem:
-          'Train and guide employees on using computer hardware, software programs and user accounts',
+          'Maintain, configure and monitor local and external network of the company using PFSense and TP Link routers',
       },
     ],
   },
@@ -31,14 +31,14 @@ let jobExperienceList = [
     jobDesc: [
       {
         jobDescItem:
-          'Build, repair, and troubleshoot client computer hardware, operating system and software programs',
+          'Install, configure and troubleshoot client computer hardware, operating system and software application',
       },
       {
         jobDescItem:
-          'Selling and advertising computer products and accessories through store, social media, email and phone calls',
+          'Selling and advertising computer products and accessories through social media, email and phone calls',
       },
       {
-        jobDescItem: 'Managing and monitoring store products inventory using excel',
+        jobDescItem: 'Monitor and maintain store products inventory using excel for the records',
       },
     ],
   },
