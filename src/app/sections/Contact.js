@@ -35,7 +35,7 @@ export default function Contact() {
       titleIsCenter="Yes"
       bgColor="bg-gradient-to-r from-slate-900 via-cyan-900 to-sky-900">
       <div className="flex flex-col items-center gap-10 mt-10 xl:justify-center xl:flex-row">
-        <ContactCard icon={phoneIcon} desc="(63+)9060268332" />
+        <ContactCard icon={phoneIcon} desc="(63+)9626253234" />
         <ContactCard icon={mailIcon} desc="pautanes.joshua@gmail.com" />
       </div>
       <div className="flex justify-center gap-2 mt-10">
