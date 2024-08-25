@@ -1,6 +1,6 @@
 let jobExperienceList = [
   {
-    positionTitle: 'PC Engineer',
+    positionTitle: 'PC Engineer (IT Support)',
     companyDesc: 'Azeus Philippines System Limited Inc - October 2023 to Present',
     jobDesc: [
       {
