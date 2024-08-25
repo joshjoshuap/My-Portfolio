@@ -20,7 +20,7 @@ let socialMediaIcon = [
 let ContactCard = ({ icon, desc }) => {
   return (
     <div className="flex items-center w-full gap-2 p-3 rounded-lg xl:w-fit bg-skywhite">
-      <Image src={icon} />
+      <Image src={icon} alt="" />
       <h2 className="">{desc}</h2>
     </div>
   );
@@ -35,12 +35,12 @@ export default function Contact() {
       titleIsCenter="Yes"
       bgColor="bg-gradient-to-r from-slate-900 via-cyan-900 to-sky-900">
       <div className="flex flex-col items-center gap-10 mt-10 xl:justify-center xl:flex-row">
-        <ContactCard icon={phoneIcon} desc="(63+)9060268332" />
+        <ContactCard icon={phoneIcon} desc="(63+)9626253234" />
         <ContactCard icon={mailIcon} desc="pautanes.joshua@gmail.com" />
       </div>
       <div className="flex justify-center gap-2 mt-10">
         {socialMediaIcon.map((item) => (
-          <Link href={item.link} target="_blank">
+          <Link href={item.link} key={item.id} target="_blank">
             <Image src={item.icon} alt={item.alt} height={80} width={80} />
           </Link>
         ))}

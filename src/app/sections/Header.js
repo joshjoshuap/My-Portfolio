@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 import { Button } from '@nextui-org/button';
 import Image from 'next/image';
@@ -34,7 +35,7 @@ export default function Header() {
 
           <div className="flex justify-center gap-2 mt-4 md:justify-start lg:mt-6 xl:mt-10">
             {socialMediaIcon.map((item) => (
-              <Link href={item.link} target="_blank">
+              <Link key={item.id} alt="" href={item.link} target="_blank">
                 <Image src={item.icon} alt={item.alt} className="w-14 lg:w-16 2xl:w-20" />
               </Link>
             ))}
@@ -46,7 +47,7 @@ export default function Header() {
           </Link>
         </div>
         <div className="self-center hidden md:block">
-          <Image src={headerImage} className="w-screen" />
+          <Image alt="" src={headerImage} className="w-screen" />
         </div>
       </div>
     </header>

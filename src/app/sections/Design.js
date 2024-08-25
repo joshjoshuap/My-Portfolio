@@ -44,6 +44,8 @@ export default function Design() {
       <div className="grid justify-center grid-cols-2 gap-3 mt-5 md:grid-cols-3 xl:grid-cols-4">
         {designPicture.map((item) => (
           <Image
+            key={item.id}
+            alt=""
             isZoomed
             src={item.image}
             className="transition duration-500 cursor-pointer hover:scale-125"
