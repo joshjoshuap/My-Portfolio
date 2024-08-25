@@ -40,7 +40,7 @@ export default function Contact() {
       </div>
       <div className="flex justify-center gap-2 mt-10">
         {socialMediaIcon.map((item) => (
-          <Link href={item.link} target="_blank">
+          <Link href={item.link} key={item.id} target="_blank">
             <Image src={item.icon} alt={item.alt} height={80} width={80} />
           </Link>
         ))}
