@@ -4,6 +4,8 @@
 
 ## Link - [joshuap.site](https://www.joshuap.site)
 
+### Second Link - [joshjoshuap.vercel.app](https://joshjoshuap.vercel.app/)
+
 ## Technologies
 
 - [Tailwind](https://tailwindcss.com/)
